@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-04 13:08:14.745766",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "validity",
+  "renewal_date",
+  "attachment",
+  "new_cert_attachment"
+ ],
+ "fields": [
+  {
+   "fieldname": "validity",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Validity Date"
+  },
+  {
+   "fieldname": "renewal_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Renewal Date"
+  },
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "label": "Cert Attachment"
+  },
+  {
+   "fieldname": "new_cert_attachment",
+   "fieldtype": "Attach",
+   "label": "New Cert Attachment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-07 14:48:29.682221",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Registration and Renewal",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

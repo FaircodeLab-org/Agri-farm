@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../../frappe-bench13"
+		},
+		{
+			"path": "../../../../frappe-bench13/apps/momscc"
+		},
+		{
+			"path": "../../../../frappe-bench13/apps/frappe"
+		},
+		{
+			"path": "../../../../frappe-bench13/apps/erpnext"
+		},
+		{
+			"path": "../../../../frappe-bench13/apps/amsecc"
+		},
+		{
+			"path": ".."
+		}
+	]
+}

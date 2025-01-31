@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-28 10:17:34.332980",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "field__staff",
+  "farmer_id",
+  "farmer_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "field__staff",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Field  Staff",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "farmer_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Farmer ID",
+   "options": "Farmer"
+  },
+  {
+   "fetch_from": "farmer_id.first_name",
+   "fieldname": "farmer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Farmer Name",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-28 12:45:07.855672",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Field Staff List",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

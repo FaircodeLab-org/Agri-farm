@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-01-24 11:28:58.020590",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "issue_number",
+  "revision_no",
+  "frequency",
+  "column_break_2",
+  "company",
+  "date_of_issue",
+  "revision_date",
+  "type",
+  "section_break_8",
+  "factory_housekeeping_and_hygiene_checklist",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Series",
+   "options": "PAT/QA/HKH/.DD./.#",
+   "reqd": 1
+  },
+  {
+   "fieldname": "issue_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Issue Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "\nDaily\nTwice In A Week*",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date Of Issue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\nCoffee QC\nSpices QC\nNPD\nProduction",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break",
+   "label": "Parameters To Be Checked"
+  },
+  {
+   "fieldname": "revision_no",
+   "fieldtype": "Int",
+   "label": "Revision No"
+  },
+  {
+   "fieldname": "revision_date",
+   "fieldtype": "Date",
+   "label": "Revision Date"
+  },
+  {
+   "fieldname": "factory_housekeeping_and_hygiene_checklist",
+   "fieldtype": "Table",
+   "label": "Factory Housekeeping And Hygiene Checklist ",
+   "options": "Factory-Housekeeping And Hygiene Checklist Item"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Factory-Housekeeping And Hygiene Checklist",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-09-29 21:05:58.321411",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Factory-Housekeeping And Hygiene Checklist",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

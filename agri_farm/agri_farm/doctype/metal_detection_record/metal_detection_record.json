@@ -1,0 +1,162 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-01-15 12:05:06.537592",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "issue_number",
+  "frequency",
+  "department",
+  "column_break_2",
+  "company",
+  "date_of_issue",
+  "revision_no",
+  "revision_date",
+  "section_break_9",
+  "product_code",
+  "buyer_name",
+  "column_break_12",
+  "product_name",
+  "section_break_15",
+  "metal_detection_record",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Series",
+   "options": "PAT/QA/CVM/.DD./.#",
+   "reqd": 1
+  },
+  {
+   "fieldname": "issue_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Issue Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "\nStart Up And Every Four Hours",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date Of Issue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "revision_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Revision No"
+  },
+  {
+   "fieldname": "revision_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Revision Date"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "product_code",
+   "fieldtype": "Link",
+   "label": "Product Code",
+   "options": "Item"
+  },
+  {
+   "fetch_from": "product_code.item_name",
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "label": "Product Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "buyer_name",
+   "fieldtype": "Link",
+   "label": "Buyer Name",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "metal_detection_record",
+   "fieldtype": "Table",
+   "label": "Metal Detection Record",
+   "options": "Metal Detection Record Item"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Metal Detection Record",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-01-15 12:16:11.754195",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Metal Detection Record",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

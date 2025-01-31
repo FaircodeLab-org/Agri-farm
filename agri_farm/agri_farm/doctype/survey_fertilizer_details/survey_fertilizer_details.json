@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-16 17:30:28.948313",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "manufacturer",
+  "qty",
+  "usage_details",
+  "crop",
+  "allowed"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Manufacturer",
+   "options": "Survey Manufacturer"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Qty"
+  },
+  {
+   "fieldname": "usage_details",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Usage Details",
+   "options": "\nKG\nMT"
+  },
+  {
+   "fieldname": "crop",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Crop",
+   "options": "Item"
+  },
+  {
+   "fieldname": "allowed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Allowed",
+   "options": "\nYes\nNo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-16 17:58:25.597330",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Survey Fertilizer Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

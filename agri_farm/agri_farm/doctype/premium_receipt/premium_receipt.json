@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-05 16:36:06.385095",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "target_number_of_farmer",
+  "achieved_number_of_farmer",
+  "attachment",
+  "attachment_2",
+  "attachment_3"
+ ],
+ "fields": [
+  {
+   "fieldname": "target_number_of_farmer",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Target Number of Farmer"
+  },
+  {
+   "fieldname": "achieved_number_of_farmer",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Achieved Number of farmer"
+  },
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment 1"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "attachment_2",
+   "fieldtype": "Attach",
+   "in_preview": 1,
+   "label": "Attachment 2"
+  },
+  {
+   "fieldname": "attachment_3",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment 3"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-13 10:06:53.206482",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Premium Receipt",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

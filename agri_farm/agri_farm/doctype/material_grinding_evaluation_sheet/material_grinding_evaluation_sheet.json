@@ -1,0 +1,170 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-01-24 12:05:44.157735",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "issue_number",
+  "revision_no",
+  "frequency",
+  "column_break_2",
+  "company",
+  "date_of_issue",
+  "revision_date",
+  "department",
+  "section_break_8",
+  "material_grinding_evaluation_sheet",
+  "section_break_12",
+  "issued_by",
+  "employee_name",
+  "column_break_15",
+  "approved_by",
+  "approver_name",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Series",
+   "options": "PAT/QA/MGI/.DD./.#",
+   "reqd": 1
+  },
+  {
+   "fieldname": "issue_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Issue Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "revision_no",
+   "fieldtype": "Int",
+   "label": "Revision No"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "\nDaily\nTwice In A Week*",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date Of Issue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "revision_date",
+   "fieldtype": "Date",
+   "label": "Revision Date"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break",
+   "label": "Product Name"
+  },
+  {
+   "fieldname": "material_grinding_evaluation_sheet",
+   "fieldtype": "Table",
+   "label": "Material Grinding Evaluation Sheet ",
+   "options": "Material Grinding Evaluation Sheet Item"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "issued_by",
+   "fieldtype": "Link",
+   "label": "Issued By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "issued_by.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Link",
+   "label": "Approved By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "approved_by.employee_name",
+   "fieldname": "approver_name",
+   "fieldtype": "Data",
+   "label": "Approver Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Material Grinding Evaluation Sheet",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-01-24 12:13:54.431147",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Material Grinding Evaluation Sheet",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

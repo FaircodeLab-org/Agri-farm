@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-14 17:58:45.487312",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "time_in",
+  "pest_found_or_not",
+  "fly_trap_glue_remove_or_not",
+  "rodent_found_or_not",
+  "column_break_8",
+  "rodent_trap_cleaned_or_not",
+  "time_out",
+  "remarks",
+  "done_by",
+  "employee_name",
+  "monitored_by",
+  "supervisor_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "time_in",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Time In",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pest_found_or_not",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Pest Found or Not",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fly_trap_glue_remove_or_not",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Fly Trap Glue Remove Or Not",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rodent_found_or_not",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Rodent Found Or Not",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rodent_trap_cleaned_or_not",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Rodent Trap Cleaned Or Not",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "time_out",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Time Out",
+   "reqd": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remarks",
+   "reqd": 1
+  },
+  {
+   "fieldname": "done_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Done By",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "monitored_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Monitored By",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "done_by.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "monitored_by.employee_name",
+   "fieldname": "supervisor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Supervisor Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-14 18:11:16.700492",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Pest Control Checklist Items",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

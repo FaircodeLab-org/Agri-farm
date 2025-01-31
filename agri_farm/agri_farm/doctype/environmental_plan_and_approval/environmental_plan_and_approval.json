@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-04 16:23:36.104165",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "agenda_attachment",
+  "attachmentagenda_minutes_word_format",
+  "translation_provision",
+  "tor_attachment",
+  "objective_evidence_attachment",
+  "action_plan_attachment"
+ ],
+ "fields": [
+  {
+   "fieldname": "attachmentagenda_minutes_word_format",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Minutes Attachment"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "translation_provision",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Translation Provision"
+  },
+  {
+   "fieldname": "agenda_attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Agenda Attachment"
+  },
+  {
+   "fieldname": "tor_attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "TOR ATTACHMENT"
+  },
+  {
+   "fieldname": "action_plan_attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Action Plan Attachment"
+  },
+  {
+   "fieldname": "objective_evidence_attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Objective Evidence Attachment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-07 13:02:59.862405",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Environmental Plan and Approval",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

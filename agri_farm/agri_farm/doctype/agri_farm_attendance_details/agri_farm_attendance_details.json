@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-29 13:42:39.557618",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "longitude",
+  "latitude",
+  "column_break_4",
+  "time",
+  "time_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "Punch In\nPunch Out\nTravel\nStoppage"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Time"
+  },
+  {
+   "fieldname": "time_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Time Type",
+   "options": "\nAM\nPM"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-11-29 14:22:47.481576",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Agri Farm Attendance Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

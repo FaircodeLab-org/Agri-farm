@@ -1,0 +1,2723 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:ft_audit_checklist_name",
+ "creation": "2023-12-04 12:45:31.084788",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ft_audit_checklist_name",
+  "column_break_gpkh4",
+  "posting_date",
+  "section_break_khgd0",
+  "previous_audit__closing__report_section",
+  "previous_audit__closing__report",
+  "section_break_rhhsq",
+  "status4",
+  "cut_off_date1",
+  "bonus_point1",
+  "column_break_mz7kl",
+  "approver3",
+  "notify1",
+  "remarks001",
+  "ft_contract_section",
+  "ft_contract",
+  "section_break_fmy4p",
+  "status_3",
+  "cut_off_date2",
+  "bonus_point2",
+  "column_break_1uwby",
+  "approval_02",
+  "notify2",
+  "remarks_2",
+  "section_break_9q6xp",
+  "registration_and_renewal_section",
+  "registration_and_renewal",
+  "section_break_edmvn",
+  "status1",
+  "cut_off_date4",
+  "bonus_point4",
+  "column_break_sqyt4",
+  "approver1",
+  "notify3",
+  "remarks_3",
+  "section_break_mebvd",
+  "agm_notice_section",
+  "agm_notice",
+  "section_break_awjqj",
+  "sent_date",
+  "notice_attachment",
+  "bonus",
+  "column_break_jw09p",
+  "approver4",
+  "notify4",
+  "remarks_4",
+  "section_break_or8fb",
+  "annual_report_section",
+  "attachment_3",
+  "section_break_jv7hf",
+  "status6",
+  "cut_off_date6",
+  "bonus_point6",
+  "column_break_bnumj",
+  "approver6",
+  "notify5",
+  "remarks_5",
+  "section_break_ztuhq",
+  "audited_financial_statements_section",
+  "audited",
+  "section_break_edrj4",
+  "status06",
+  "cut_off_date07",
+  "bonus_point07",
+  "column_break_7qeln",
+  "fy",
+  "notify6",
+  "remarks_6",
+  "section_break_megcq",
+  "minutes_of_general_body_meetings_section",
+  "minutes_of_general_body_meetings",
+  "section_break_zshmf",
+  "status08",
+  "cut_off_date08",
+  "bonus_point08",
+  "column_break_x7fcd",
+  "approver08",
+  "notify7",
+  "remarks_7",
+  "section_break_hcgcb",
+  "minutes_of_board_meeting_section",
+  "minutes_of_board_meeting",
+  "section_break_fqljd",
+  "status09",
+  "cut_off_date09",
+  "bonus_point09",
+  "column_break_3mc0u",
+  "approver09",
+  "notify8",
+  "remarks_8",
+  "section_break_vgfrc",
+  "afl_section",
+  "afl",
+  "section_break_qzkcn",
+  "status10",
+  "cut_off_date10",
+  "bonus_point10",
+  "column_break_ivmnk",
+  "approver10",
+  "notify9",
+  "remarks10",
+  "section_break_3xjue",
+  "membership_application__and_contract_section",
+  "membership",
+  "section_break_xwhyt",
+  "status11",
+  "cut_off_date11",
+  "bonus_point11",
+  "column_break_bns1f",
+  "approver11",
+  "notify10",
+  "remarks11",
+  "statute_section",
+  "statute",
+  "section_break_elekz",
+  "status12",
+  "cut_off_date12",
+  "bonus_point12",
+  "column_break_sqaol",
+  "approver12",
+  "notify11",
+  "remarks_9",
+  "section_break_5xyzt",
+  "internal_rules_section",
+  "internal_rules",
+  "section_break_x3mgh",
+  "status",
+  "cut_off_date",
+  "bonus_point",
+  "column_break_lsulj",
+  "approver",
+  "notify12",
+  "remarks_10",
+  "section_break_bhx7b",
+  "ft_premium_utilization_section",
+  "ft_premium_utilization",
+  "section_break_xjd8s",
+  "status_1",
+  "bns_point",
+  "ctodt",
+  "submitted_date_1",
+  "approved_date_1",
+  "column_break_fev2g",
+  "approval_1",
+  "notify13",
+  "remarks_11",
+  "section_break_zgtdp",
+  "ft_premium_plans_section",
+  "ft_premium_plants",
+  "section_break_9tcxo",
+  "ststs",
+  "cdate",
+  "bpoint",
+  "submitted_date",
+  "approved_date",
+  "column_break_zdptp",
+  "aprvr",
+  "notify14",
+  "remarks_12",
+  "section_break_6qyan",
+  "section_break_yk2p9",
+  "premium_plants_section",
+  "premium_receipt",
+  "section_break_2e3wz",
+  "status13",
+  "cutdate",
+  "bonusp",
+  "column_break_7jnpn",
+  "approver13",
+  "notify15",
+  "remark13",
+  "section_break_qaafa",
+  "ft_sales_ledger_section",
+  "ft_sales_ledger",
+  "status14",
+  "cutoff",
+  "bnspoint13",
+  "column_break_lrrk0",
+  "aprvr13",
+  "notify16",
+  "remarks_14",
+  "section_break_nhcji",
+  "fto_sales_details_section",
+  "fto_sales_register",
+  "ststus15",
+  "codate",
+  "bonus15",
+  "column_break_ctseo",
+  "aprover15",
+  "notify17",
+  "remarks_15",
+  "section_break_krtze",
+  "non_ft_sales_details_section",
+  "othor_sales_register",
+  "status16",
+  "cutofdate16",
+  "bnspoint16",
+  "column_break_at2om",
+  "aprover16",
+  "notify18",
+  "remarks_16",
+  "ft_purchase_details_section",
+  "ft_purchase_register",
+  "status17",
+  "cutoff17",
+  "bnspoint17",
+  "column_break_f9e99",
+  "approver17",
+  "notify19",
+  "remarks_17",
+  "section_break_3ynwh",
+  "fto_purchase_details_section",
+  "fto_purchase_register",
+  "status18",
+  "cod",
+  "bonuspoint18",
+  "column_break_ehuk1",
+  "aprver18",
+  "notify20",
+  "remarks_18",
+  "section_break_euni5",
+  "stock_register_section",
+  "stock_register",
+  "section_break_i4wzd",
+  "status19",
+  "cod19",
+  "bp19",
+  "column_break_80i9w",
+  "approver19",
+  "notify21",
+  "remarks_19",
+  "section_break_7du8v",
+  "bmr_traceability_rcord_as_per_ftnc_section",
+  "bmr",
+  "section_break_ztofu",
+  "status20",
+  "cod20",
+  "bp20",
+  "column_break_r9f61",
+  "aprvr20",
+  "notify22",
+  "remarks_20",
+  "customer_contract_section",
+  "customer_contract",
+  "section_break_ggas7",
+  "status21",
+  "cod21",
+  "bp21",
+  "column_break_sivrm",
+  "apprvr21",
+  "notify23",
+  "remarks_21",
+  "payment_records_to_the_farmers_section",
+  "payment_record",
+  "section_break_rabwq",
+  "status22",
+  "cod22",
+  "bp22",
+  "column_break_vmdyw",
+  "aprvr22",
+  "notify24",
+  "rmrks22",
+  "section_break_srjfx",
+  "organic_certificate_copies_section",
+  "occ",
+  "section_break_xztbs",
+  "status23",
+  "cod23",
+  "bp23",
+  "column_break_qkyjt",
+  "aprvr23",
+  "notify25",
+  "remarks_22",
+  "environmental_plan_and_approval_section",
+  "environmental_plan_and_approval",
+  "section_break_f7zai",
+  "status24",
+  "cod24",
+  "bp24",
+  "column_break_vn0zl",
+  "aprvr24",
+  "notify26",
+  "remarks_23",
+  "sub_group_meeting_minutes_section",
+  "sub_group_meeting_minutes",
+  "section_break_ethaa",
+  "status25",
+  "cod25",
+  "bp25",
+  "column_break_wqnae",
+  "aprver25",
+  "notify27",
+  "remarks_24",
+  "section_break_3qknq",
+  "training_record_for_use_handling_section",
+  "training_record_for_use_handling",
+  "section_break_kntan",
+  "status26",
+  "cod26",
+  "bp26",
+  "column_break_w397m",
+  "aprover26",
+  "notify28",
+  "remarks_25",
+  "section_break_xnegm",
+  "training_records_ipm_technical_fair_trade_etc_staff_section",
+  "training_report_ipm",
+  "section_break_lilws",
+  "status27",
+  "cod27",
+  "bp27",
+  "column_break_9agp3",
+  "aprver27",
+  "notify29",
+  "remarks_26",
+  "section_break_wkytb",
+  "risk_asessment_section",
+  "risk_asessment",
+  "section_break_8hqke",
+  "status28",
+  "cod28",
+  "bp28",
+  "column_break_xl9so",
+  "aprover228",
+  "notify30",
+  "remarks28",
+  "employees_documentation_section",
+  "employee_documentation",
+  "section_break_eqlbw",
+  "status29",
+  "cod29",
+  "bp29",
+  "column_break_cnk9s",
+  "approver29",
+  "notify31",
+  "remarks29",
+  "worker_contract_and_training_records_section",
+  "worker_contract_and_training_records",
+  "section_break_g23rm",
+  "status30",
+  "cod30",
+  "bp30",
+  "column_break_lctlg",
+  "aprover30",
+  "notify32",
+  "remarks_27",
+  "section_break_2o0rm",
+  "documents_for_additional_entities_section",
+  "documents_for_additional_entities",
+  "section_break_hrzyq",
+  "status31",
+  "cod31",
+  "bp31",
+  "column_break_9vktx",
+  "aprover31",
+  "notify33",
+  "remarks_28",
+  "section_break_rbcyw",
+  "complaint_register_section",
+  "complaint_register",
+  "section_break_awn2o",
+  "status32",
+  "cod32",
+  "bp32",
+  "column_break_he3nv",
+  "aprover32",
+  "notify34",
+  "remarks32",
+  "section_break_soveg",
+  "internal_inspection_checklist_section",
+  "internal_ic",
+  "section_break_b86kw",
+  "status33",
+  "cod33",
+  "bp33",
+  "column_break_zzlju",
+  "aprover33",
+  "notify35",
+  "remarks33",
+  "section_break_2vc2q",
+  "conflict_of_interest_section",
+  "conflict_of_interest",
+  "section_break_0kdpm",
+  "status34",
+  "cod34",
+  "bp34",
+  "column_break_bbws5",
+  "approver34",
+  "notify36",
+  "remarks_29",
+  "section_break_7kqpd",
+  "delivery_challan_section",
+  "delivery_challan",
+  "section_break_w9dtn",
+  "status40",
+  "cod40",
+  "bp40",
+  "column_break_zrrlz",
+  "aprover40",
+  "notify37",
+  "remarks40",
+  "section_break_g0gve",
+  "ics_document_section",
+  "ics_document",
+  "section_break_abzhl",
+  "status41",
+  "cod41",
+  "bp41",
+  "column_break_ptq07",
+  "approver41",
+  "notify38",
+  "remarks41",
+  "section_break_lvqzf",
+  "input_distribution_list_section",
+  "input_distribution_list",
+  "section_break_njlbx",
+  "status35",
+  "cod35",
+  "bp35",
+  "column_break_ffort",
+  "aprover35",
+  "notify39",
+  "remarks_30",
+  "section_break_pkolq",
+  "communication_with_flocert_section",
+  "communication_with_flocert",
+  "section_break_lhntd",
+  "select37",
+  "cod37",
+  "bp37",
+  "column_break_mzn8v",
+  "aprover37",
+  "notify40",
+  "remarks_31",
+  "communication_with_fairtrade_section",
+  "communication_with_fairtrade",
+  "section_break_8c0ay",
+  "status36",
+  "cod36",
+  "bp36",
+  "column_break_fplxi",
+  "aprover36",
+  "notify41",
+  "remarks_36",
+  "section_break_sdii7"
+ ],
+ "fields": [
+  {
+   "fieldname": "previous_audit__closing__report_section",
+   "fieldtype": "Section Break",
+   "label": "Previous Audit  Closing  Report"
+  },
+  {
+   "fieldname": "previous_audit__closing__report",
+   "fieldtype": "Table",
+   "label": "Previous Audit  Closing  Report",
+   "options": "Previous Audit  Closing  Report"
+  },
+  {
+   "fieldname": "ft_contract_section",
+   "fieldtype": "Section Break",
+   "label": "FT Contract"
+  },
+  {
+   "fieldname": "ft_contract",
+   "fieldtype": "Table",
+   "label": "FT Contract",
+   "options": "FT Contract"
+  },
+  {
+   "fieldname": "section_break_rhhsq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_fmy4p",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks_2",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "registration_and_renewal_section",
+   "fieldtype": "Section Break",
+   "label": "Registration and Renewal"
+  },
+  {
+   "fieldname": "registration_and_renewal",
+   "fieldtype": "Table",
+   "label": "Registration and Renewal",
+   "options": "Registration and Renewal"
+  },
+  {
+   "fieldname": "section_break_edmvn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks_3",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "agm_notice_section",
+   "fieldtype": "Section Break",
+   "label": "AGM Notice"
+  },
+  {
+   "fieldname": "sent_date",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "notice_attachment",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "column_break_jw09p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remarks_4",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_or8fb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "annual_report_section",
+   "fieldtype": "Section Break",
+   "label": "Annual Report"
+  },
+  {
+   "fieldname": "remarks_5",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "audited_financial_statements_section",
+   "fieldtype": "Section Break",
+   "label": "Audited Financial Statements"
+  },
+  {
+   "fieldname": "fy",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_megcq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "minutes_of_general_body_meetings_section",
+   "fieldtype": "Section Break",
+   "label": "Minutes Of General Body Meetings"
+  },
+  {
+   "fieldname": "minutes_of_general_body_meetings",
+   "fieldtype": "Table",
+   "label": "Minutes of general body meetings",
+   "options": "Minutes of general body meetings"
+  },
+  {
+   "fieldname": "remarks_6",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "remarks_7",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "minutes_of_board_meeting_section",
+   "fieldtype": "Section Break",
+   "label": "Minutes Of Board Meeting"
+  },
+  {
+   "fieldname": "minutes_of_board_meeting",
+   "fieldtype": "Table",
+   "label": "Minutes Of Board Meeting",
+   "options": "Minutes Of Board Meeting"
+  },
+  {
+   "fieldname": "remarks_8",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "statute_section",
+   "fieldtype": "Section Break",
+   "label": "Statute"
+  },
+  {
+   "fieldname": "statute",
+   "fieldtype": "Table",
+   "label": "Statute",
+   "options": "Statute"
+  },
+  {
+   "fieldname": "internal_rules_section",
+   "fieldtype": "Section Break",
+   "label": "Internal Rules"
+  },
+  {
+   "fieldname": "internal_rules",
+   "fieldtype": "Table",
+   "label": "Internal Rules",
+   "options": "Internal Rules"
+  },
+  {
+   "fieldname": "remarks_9",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "remarks_10",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "ft_premium_utilization_section",
+   "fieldtype": "Section Break",
+   "label": "FT Premium Utilization"
+  },
+  {
+   "fieldname": "ft_premium_utilization",
+   "fieldtype": "Table",
+   "label": "FT Premium Utilization",
+   "options": "FT Premium Utilization"
+  },
+  {
+   "fieldname": "section_break_xjd8s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "submitted_date",
+   "fieldtype": "Date",
+   "label": "Submitted Date"
+  },
+  {
+   "fieldname": "column_break_fev2g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approved_date",
+   "fieldtype": "Date",
+   "label": "Approved Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "attachment_3",
+   "fieldtype": "Table",
+   "label": "annual report",
+   "options": "Annual Report"
+  },
+  {
+   "fieldname": "submitted_date_1",
+   "fieldtype": "Date",
+   "label": "Submitted Date"
+  },
+  {
+   "fieldname": "approved_date_1",
+   "fieldtype": "Date",
+   "label": "Approved Date"
+  },
+  {
+   "fieldname": "approval_1",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "ft_premium_plants",
+   "fieldtype": "Table",
+   "label": "FT Premium Plans",
+   "options": "FT Premium Plants"
+  },
+  {
+   "fieldname": "section_break_6qyan",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks_11",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "remarks_12",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_yk2p9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_zgtdp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ft_sales_ledger_section",
+   "fieldtype": "Section Break",
+   "label": "FT Sales Ledger"
+  },
+  {
+   "fieldname": "ft_sales_ledger",
+   "fieldtype": "Table",
+   "label": "FT Sales Ledger",
+   "options": "FT Sales Register"
+  },
+  {
+   "fieldname": "remarks_14",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "fto_sales_details_section",
+   "fieldtype": "Section Break",
+   "label": "FTO Sales Details"
+  },
+  {
+   "fieldname": "fto_sales_register",
+   "fieldtype": "Table",
+   "label": "FTO Sales Register",
+   "options": "FTO Sales Register"
+  },
+  {
+   "fieldname": "remarks_15",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "non_ft_sales_details_section",
+   "fieldtype": "Section Break",
+   "label": "Non FT Sales Details"
+  },
+  {
+   "fieldname": "othor_sales_register",
+   "fieldtype": "Table",
+   "label": "Othor Sales Register",
+   "options": "Other Sales Register"
+  },
+  {
+   "fieldname": "remarks_16",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "ft_purchase_details_section",
+   "fieldtype": "Section Break",
+   "label": "FT Purchase Details"
+  },
+  {
+   "fieldname": "ft_purchase_register",
+   "fieldtype": "Table",
+   "label": "FT Purchase Register",
+   "options": "FT Purchase Register"
+  },
+  {
+   "fieldname": "remarks_17",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "fto_purchase_details_section",
+   "fieldtype": "Section Break",
+   "label": "FTO Purchase Details"
+  },
+  {
+   "fieldname": "fto_purchase_register",
+   "fieldtype": "Table",
+   "label": "FTO Purchase Register",
+   "options": "FTO Purchase Register"
+  },
+  {
+   "fieldname": "remarks_18",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "stock_register_section",
+   "fieldtype": "Section Break",
+   "label": "Stock Register"
+  },
+  {
+   "fieldname": "stock_register",
+   "fieldtype": "Table",
+   "label": "Stock Register",
+   "options": "Stock Register"
+  },
+  {
+   "fieldname": "remarks_19",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "bmr_traceability_rcord_as_per_ftnc_section",
+   "fieldtype": "Section Break",
+   "label": "BMR (traceability Rcord as per FTNC)"
+  },
+  {
+   "fieldname": "bmr",
+   "fieldtype": "Table",
+   "label": "BMR",
+   "options": "BMR"
+  },
+  {
+   "fieldname": "remarks_20",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "customer_contract_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Contract"
+  },
+  {
+   "fieldname": "remarks_21",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "organic_certificate_copies_section",
+   "fieldtype": "Section Break",
+   "label": "Organic Certificate Copies"
+  },
+  {
+   "fieldname": "remarks_22",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "environmental_plan_and_approval_section",
+   "fieldtype": "Section Break",
+   "label": "Environmental Plan and Approval"
+  },
+  {
+   "fieldname": "environmental_plan_and_approval",
+   "fieldtype": "Table",
+   "label": "Environmental Plan and Approval",
+   "options": "Environmental Plan and Approval"
+  },
+  {
+   "fieldname": "remarks_23",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "sub_group_meeting_minutes_section",
+   "fieldtype": "Section Break",
+   "label": "Sub Group Meeting Minutes"
+  },
+  {
+   "fieldname": "sub_group_meeting_minutes",
+   "fieldtype": "Table",
+   "label": "Sub Group Meeting Minutes",
+   "options": "Sub Group Meeting Minutes"
+  },
+  {
+   "fieldname": "remarks_24",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "training_record_for_use_handling_section",
+   "fieldtype": "Section Break",
+   "label": "Training Record for use, Handling "
+  },
+  {
+   "fieldname": "training_record_for_use_handling",
+   "fieldtype": "Table",
+   "label": "Training Record for use Handling",
+   "options": "Training Record for use Handling"
+  },
+  {
+   "fieldname": "remarks_25",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "training_records_ipm_technical_fair_trade_etc_staff_section",
+   "fieldtype": "Section Break",
+   "label": "Training Records IPM Technical Fair trade etc Staff"
+  },
+  {
+   "fieldname": "training_report_ipm",
+   "fieldtype": "Table",
+   "label": "Training report IPM",
+   "options": "Training report IPM"
+  },
+  {
+   "fieldname": "remarks_26",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "worker_contract_and_training_records_section",
+   "fieldtype": "Section Break",
+   "label": "Worker Contract and Training Records"
+  },
+  {
+   "fieldname": "worker_contract_and_training_records",
+   "fieldtype": "Table",
+   "label": "Worker Contract and Training Records",
+   "options": "Worker Contract and Training Records"
+  },
+  {
+   "fieldname": "remarks_27",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "documents_for_additional_entities_section",
+   "fieldtype": "Section Break",
+   "label": "Documents for Additional Entities"
+  },
+  {
+   "fieldname": "documents_for_additional_entities",
+   "fieldtype": "Table",
+   "label": "Documents for Additional Entities",
+   "options": "Documents for Additional Entities"
+  },
+  {
+   "fieldname": "remarks_28",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "conflict_of_interest_section",
+   "fieldtype": "Section Break",
+   "label": "Conflict of Interest"
+  },
+  {
+   "fieldname": "conflict_of_interest",
+   "fieldtype": "Table",
+   "label": "Conflict of Interest",
+   "options": "Conflict of Interest"
+  },
+  {
+   "fieldname": "remarks_29",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "input_distribution_list_section",
+   "fieldtype": "Section Break",
+   "label": "Input Distribution List"
+  },
+  {
+   "fieldname": "remarks_30",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "communication_with_flocert_section",
+   "fieldtype": "Section Break",
+   "label": "Communication with FLOCERT"
+  },
+  {
+   "fieldname": "remarks_31",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "communication_with_fairtrade_section",
+   "fieldtype": "Section Break",
+   "label": "Communication with Fairtrade"
+  },
+  {
+   "fieldname": "approval_02",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_9q6xp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_khgd0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status_1",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "status_3",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "column_break_sqyt4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approver",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_mebvd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_gpkh4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ft_audit_checklist_name",
+   "fieldtype": "Data",
+   "label": "FT Audit Checklist Name",
+   "unique": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "cut_off_date",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "column_break_mz7kl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status1",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "approver1",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "cut_off_date1",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonus_point1",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_1uwby",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cut_off_date2",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonus_point2",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "approver3",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify3",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "agm_notice",
+   "fieldtype": "Table",
+   "label": "Agm notice",
+   "options": "Agm notice"
+  },
+  {
+   "fieldname": "section_break_awjqj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bonus",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "status4",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cut_off_date4",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonus_point4",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "notify5",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "approver4",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify4",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "section_break_jv7hf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_bnumj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ztuhq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status6",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cut_off_date6",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonus_point6",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "audited",
+   "fieldtype": "Table",
+   "label": "audited",
+   "options": "Audited"
+  },
+  {
+   "fieldname": "section_break_edrj4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_7qeln",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notify6",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "approver6",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "status06",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cut_off_date07",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonus_point07",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "section_break_zshmf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_x7fcd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_hcgcb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status08",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cut_off_date08",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonus_point08",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "approver08",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_fqljd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3mc0u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_vgfrc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks001",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "status09",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cut_off_date09",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonus_point09",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "approver09",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "afl_section",
+   "fieldtype": "Section Break",
+   "label": "AFL"
+  },
+  {
+   "fieldname": "afl",
+   "fieldtype": "Table",
+   "label": "afl",
+   "options": "AFL"
+  },
+  {
+   "fieldname": "section_break_qzkcn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ivmnk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_3xjue",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status10",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cut_off_date10",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonus_point10",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "approver10",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify10",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "remarks10",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "membership_application__and_contract_section",
+   "fieldtype": "Section Break",
+   "label": "Membership Application  and Contract"
+  },
+  {
+   "fieldname": "membership",
+   "fieldtype": "Table",
+   "label": "membership",
+   "options": "Membership"
+  },
+  {
+   "fieldname": "section_break_xwhyt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_bns1f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status11",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cut_off_date11",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonus_point11",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "approver11",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify11",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "remarks11",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_elekz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_sqaol",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_5xyzt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bonus_point",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "status12",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cut_off_date12",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonus_point12",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "approver12",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify12",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "section_break_x3mgh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_lsulj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_bhx7b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bns_point",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "ctodt",
+   "fieldtype": "Date",
+   "label": "Cut Of Date"
+  },
+  {
+   "fieldname": "section_break_9tcxo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ststs",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cdate",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bpoint",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_zdptp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprvr",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "premium_plants_section",
+   "fieldtype": "Section Break",
+   "label": "Premium Receipt And Use Records"
+  },
+  {
+   "fieldname": "premium_receipt",
+   "fieldtype": "Table",
+   "label": "Premium Receipt",
+   "options": "Premium Receipt"
+  },
+  {
+   "fieldname": "section_break_2e3wz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status13",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cutdate",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonusp",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_7jnpn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approver13",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify13",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "remark13",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_qaafa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status14",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cutoff",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bnspoint13",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_lrrk0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprvr13",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_nhcji",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ststus15",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "codate",
+   "fieldtype": "Date",
+   "label": "Cut Off date"
+  },
+  {
+   "fieldname": "bonus15",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_ctseo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover15",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify15",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "section_break_krtze",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status16",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cutofdate16",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bnspoint16",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_at2om",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover16",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "status17",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cutoff17",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bnspoint17",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_f9e99",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approver17",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify17",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "section_break_3ynwh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status18",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bonuspoint18",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_ehuk1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprver18",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_euni5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status19",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod19",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp19",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_80i9w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approver19",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify19",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "section_break_7du8v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ztofu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status20",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod20",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp20",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_r9f61",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprvr20",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "customer_contract",
+   "fieldtype": "Table",
+   "label": "Customer contract",
+   "options": "Customer Contract"
+  },
+  {
+   "fieldname": "section_break_ggas7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status21",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod21",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp21",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_sivrm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "apprvr21",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "payment_records_to_the_farmers_section",
+   "fieldtype": "Section Break",
+   "label": "Payment Records To The Farmers"
+  },
+  {
+   "fieldname": "payment_record",
+   "fieldtype": "Table",
+   "label": "Payment Record",
+   "options": "Payment Record"
+  },
+  {
+   "fieldname": "section_break_rabwq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status22",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod22",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp22",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_vmdyw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprvr22",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "rmrks22",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_srjfx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "occ",
+   "fieldtype": "Table",
+   "label": "OCC",
+   "options": "Organic Certificate Copies"
+  },
+  {
+   "fieldname": "section_break_xztbs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status23",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod23",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp23",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_qkyjt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprvr23",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "status24",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod24",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp24",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_vn0zl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprvr24",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_ethaa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status25",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod25",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp25",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_wqnae",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprver25",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify25",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "section_break_3qknq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_kntan",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status26",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod26",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp26",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_w397m",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover26",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_xnegm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_lilws",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status27",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod27",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp27",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_9agp3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprver27",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_wkytb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "risk_asessment_section",
+   "fieldtype": "Section Break",
+   "label": "Risk Asessment"
+  },
+  {
+   "fieldname": "risk_asessment",
+   "fieldtype": "Table",
+   "label": "risk asessment",
+   "options": "Risk Asessment"
+  },
+  {
+   "fieldname": "section_break_8hqke",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status28",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod28",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp28",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_xl9so",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover228",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "remarks28",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_f7zai",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employees_documentation_section",
+   "fieldtype": "Section Break",
+   "label": "Employees Documentation"
+  },
+  {
+   "fieldname": "employee_documentation",
+   "fieldtype": "Table",
+   "label": "Employee Documentation",
+   "options": "Employee Documentation"
+  },
+  {
+   "fieldname": "section_break_eqlbw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status29",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod29",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp29",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_cnk9s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approver29",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "remarks29",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_g23rm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status30",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod30",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp30",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_lctlg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover30",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_2o0rm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_hrzyq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status31",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod31",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp31",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_9vktx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover31",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_rbcyw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "complaint_register_section",
+   "fieldtype": "Section Break",
+   "label": "Complaint Register"
+  },
+  {
+   "fieldname": "complaint_register",
+   "fieldtype": "Table",
+   "label": "complaint register",
+   "options": "Complaint Register"
+  },
+  {
+   "fieldname": "section_break_awn2o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status32",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod32",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp32",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_he3nv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover32",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "remarks32",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_soveg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "internal_inspection_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Internal Inspection Checklist"
+  },
+  {
+   "fieldname": "internal_ic",
+   "fieldtype": "Table",
+   "label": "Internal IC",
+   "options": "Internal IC"
+  },
+  {
+   "fieldname": "section_break_b86kw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status33",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod33",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp33",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_zzlju",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover33",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "remarks33",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_2vc2q",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_0kdpm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status34",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod34",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp34",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_bbws5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approver34",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_7kqpd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "input_distribution_list",
+   "fieldtype": "Table",
+   "label": "input distribution list",
+   "options": "Input Distribution List"
+  },
+  {
+   "fieldname": "section_break_njlbx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status35",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod35",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp35",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_ffort",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover35",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify35",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "section_break_pkolq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "communication_with_fairtrade",
+   "fieldtype": "Table",
+   "label": "communication with fairtrade",
+   "options": "Communication With Fairtrade"
+  },
+  {
+   "fieldname": "section_break_8c0ay",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status36",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod36",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp36",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_fplxi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover36",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify36",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "remarks_36",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_sdii7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "communication_with_flocert",
+   "fieldtype": "Table",
+   "label": "communication with flocert",
+   "options": "Communication With FLOCERT"
+  },
+  {
+   "fieldname": "section_break_lhntd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select37",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod37",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp37",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_mzn8v",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover37",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify37",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "delivery_challan_section",
+   "fieldtype": "Section Break",
+   "label": "Delivery Challan"
+  },
+  {
+   "fieldname": "delivery_challan",
+   "fieldtype": "Table",
+   "label": "delivery challan",
+   "options": "Delivery Challan"
+  },
+  {
+   "fieldname": "section_break_w9dtn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status40",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod40",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp40",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_zrrlz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aprover40",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "notify40",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "remarks40",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_g0gve",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ics_document_section",
+   "fieldtype": "Section Break",
+   "label": "General Documents"
+  },
+  {
+   "fieldname": "ics_document",
+   "fieldtype": "Table",
+   "label": "General Documents",
+   "options": "ICS Document"
+  },
+  {
+   "fieldname": "section_break_abzhl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status41",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nWorking\nPending Review\nOverdue\nCompleted"
+  },
+  {
+   "fieldname": "cod41",
+   "fieldtype": "Date",
+   "label": "Cut Off Date"
+  },
+  {
+   "fieldname": "bp41",
+   "fieldtype": "Float",
+   "label": "Bonus Point"
+  },
+  {
+   "fieldname": "column_break_ptq07",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approver41",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "remarks41",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_lvqzf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notify1",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify2",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify7",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify8",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify9",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify14",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify16",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify18",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify20",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify21",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify22",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify23",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify24",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify26",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify27",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify28",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify29",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify30",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify31",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify32",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify33",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify34",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify38",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify39",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "notify41",
+   "fieldtype": "Button",
+   "label": "Notify"
+  },
+  {
+   "fieldname": "section_break_i4wzd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ft_premium_plans_section",
+   "fieldtype": "Section Break",
+   "label": "FT Premium Plans"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-08 15:46:09.110304",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "FT audit Checklist",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

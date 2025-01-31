@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-15 12:23:18.684161",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "staffs_free_from_infection",
+  "staffs_wearing_clean_cloths",
+  "staffs_nails_trimmed_properly_without_nail_polishes",
+  "staffs_long_hair_tied_back_properly",
+  "column_break_6",
+  "staffs_wearing_head_caps_and_masks",
+  "staffs_wearing_separate_foot_wares",
+  "all_staffs_sanitize_their_hands_with",
+  "all_men_staffs_properly_shaved",
+  "all_staffs_are_not_using_sindur_jewellery_and_cosmetics",
+  "checked_by",
+  "employee_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "staffs_free_from_infection",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Staffs Free From Infection",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "staffs_wearing_clean_cloths",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Staffs Wearing Clean Cloths",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "staffs_nails_trimmed_properly_without_nail_polishes",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Staffs Nails Trimmed Properly Without Nail Polishes",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "staffs_long_hair_tied_back_properly",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Staffs Long Hair Tied Back Properly",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "staffs_wearing_head_caps_and_masks",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Staffs Wearing Head Caps And Masks",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "staffs_wearing_separate_foot_wares",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Staffs Wearing Separate Foot Wares  ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "all_staffs_sanitize_their_hands_with",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "All Staffs Sanitize Their Hands With 70% Ip",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "all_men_staffs_properly_shaved",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "All Men Staffs Properly Shaved",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "all_staffs_are_not_using_sindur_jewellery_and_cosmetics",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "All Staffs Are Not Using Sindur, Jewellery And Cosmetics",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "checked_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Checked By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "checked_by.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-15 12:25:03.171367",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Personal Hygiene Check List Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

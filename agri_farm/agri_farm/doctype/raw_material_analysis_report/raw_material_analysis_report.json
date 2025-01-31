@@ -1,0 +1,250 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-01-24 12:17:57.627542",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "issue_number",
+  "revision_no",
+  "frequency",
+  "column_break_2",
+  "company",
+  "date_of_issue",
+  "revision_date",
+  "department",
+  "section_break_8",
+  "date_of_analysis",
+  "product_id",
+  "quantity",
+  "column_break_13",
+  "batch_number",
+  "product_name",
+  "supplier",
+  "uom",
+  "section_break_18",
+  "organoleptic_properties",
+  "section_break_20",
+  "physical_and_chemical_properties",
+  "section_break_22",
+  "remarks",
+  "section_break_24",
+  "checked_by",
+  "employee_name",
+  "column_break_27",
+  "verified_by",
+  "name1",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Series",
+   "options": "PAT/QA/RMA/.DD./.#",
+   "reqd": 1
+  },
+  {
+   "fieldname": "issue_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Issue Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "revision_no",
+   "fieldtype": "Int",
+   "label": "Revision No"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "\nDaily\nReception Of RM",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date Of Issue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "revision_date",
+   "fieldtype": "Date",
+   "label": "Revision Date"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_of_analysis",
+   "fieldtype": "Date",
+   "label": "Date Of Analysis"
+  },
+  {
+   "fieldname": "batch_number",
+   "fieldtype": "Link",
+   "label": "Batch Number ",
+   "options": "Batch"
+  },
+  {
+   "fetch_from": "product_id.item_name",
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "label": "Product Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "product_id",
+   "fieldtype": "Link",
+   "label": "Product ID",
+   "options": "Item"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "organoleptic_properties",
+   "fieldtype": "Table",
+   "label": "Organoleptic Properties",
+   "options": "Organoleptic Properties"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "physical_and_chemical_properties",
+   "fieldtype": "Table",
+   "label": "Physical and Chemical Properties",
+   "options": "Physical and Chemical Properties"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "checked_by",
+   "fieldtype": "Link",
+   "label": "Checked By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "checked_by.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "verified_by",
+   "fieldtype": "Link",
+   "label": "Verified By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "verified_by.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Raw Material Analysis Report",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-01-24 12:37:14.078847",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Raw Material Analysis Report",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

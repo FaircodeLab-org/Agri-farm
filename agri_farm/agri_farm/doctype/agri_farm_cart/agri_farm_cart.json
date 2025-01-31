@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-30 00:05:34.302959",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier_id",
+  "user_id",
+  "items"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Link",
+   "label": "User ID",
+   "options": "User"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Agri Farm Cart Items"
+  },
+  {
+   "fieldname": "supplier_id",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-12-01 09:20:47.431485",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Agri Farm Cart",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-24 12:45:38.227892",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "microbiological_properties",
+  "result",
+  "test_method"
+ ],
+ "fields": [
+  {
+   "fieldname": "microbiological_properties",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Microbiological Properties",
+   "options": "Microbiological Properties"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Result"
+  },
+  {
+   "fieldname": "test_method",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Method"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-24 12:45:38.227892",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "FG Microbiological Properties",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

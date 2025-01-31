@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2023-10-19 17:37:20.772902",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "image_url",
+  "column_break_jmyn2",
+  "title",
+  "description",
+  "link"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "image_url",
+   "fieldtype": "Attach",
+   "label": "Image URL"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Data",
+   "label": "Link"
+  },
+  {
+   "fieldname": "column_break_jmyn2",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-18 12:12:11.411039",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Organic Certification Links",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

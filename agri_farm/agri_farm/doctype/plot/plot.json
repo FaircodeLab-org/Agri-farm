@@ -1,0 +1,152 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2022-11-11 11:52:57.725615",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "farmer",
+  "farmer_name",
+  "plot_name",
+  "company",
+  "perimeter_mapping",
+  "perimeter_mapping_from_ma",
+  "column_break_3",
+  "total_plot_area",
+  "crop_unit",
+  "fallow_land",
+  "longitude",
+  "latitude",
+  "crops_section",
+  "crop_list",
+  "section_break_9",
+  "total_crop_list_plot_area"
+ ],
+ "fields": [
+  {
+   "fieldname": "farmer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Farmer",
+   "options": "Farmer"
+  },
+  {
+   "fieldname": "plot_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Plot Name"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_plot_area",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Plot Area"
+  },
+  {
+   "fieldname": "crop_unit",
+   "fieldtype": "Link",
+   "label": "Crop Unit",
+   "options": "Crop Unit"
+  },
+  {
+   "fieldname": "fallow_land",
+   "fieldtype": "Data",
+   "label": "Fallow Land"
+  },
+  {
+   "fieldname": "crops_section",
+   "fieldtype": "Section Break",
+   "label": "Crops"
+  },
+  {
+   "fieldname": "crop_list",
+   "fieldtype": "Table",
+   "label": "Crop List",
+   "options": "Plot Crops"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_crop_list_plot_area",
+   "fieldtype": "Float",
+   "label": "Total Crop List Plot Area",
+   "read_only": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "PLOT-"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "farmer_name",
+   "fieldtype": "Data",
+   "label": "Farmer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "perimeter_mapping",
+   "fieldtype": "Small Text",
+   "label": "Perimeter Mapping"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "perimeter_mapping_from_ma",
+   "fieldtype": "Small Text",
+   "hidden": 1,
+   "label": "Perimeter Mapping From MA"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-12-02 15:01:01.348747",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Plot",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

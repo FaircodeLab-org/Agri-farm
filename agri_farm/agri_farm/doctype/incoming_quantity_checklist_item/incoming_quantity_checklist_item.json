@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-11 10:46:32.451840",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "count",
+  "received_or_not",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "\nSack\nBox\nKG\nTon"
+  },
+  {
+   "fieldname": "count",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Count"
+  },
+  {
+   "default": "Received",
+   "fieldname": "received_or_not",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Received Or Not",
+   "options": "\nReceived\nNot Received\nPacking Damage\nReceived but Packing Damage"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-11 11:53:31.710806",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Incoming Quantity Checklist Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

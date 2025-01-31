@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-29 23:16:57.926727",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "warehouse",
+  "farmer_section",
+  "auto_create_supplier",
+  "auto_link_supplier",
+  "supplier_group"
+ ],
+ "fields": [
+  {
+   "fieldname": "warehouse",
+   "fieldtype": "Link",
+   "label": "Warehouse",
+   "options": "Warehouse"
+  },
+  {
+   "fieldname": "farmer_section",
+   "fieldtype": "Section Break",
+   "label": "Farmer"
+  },
+  {
+   "default": "0",
+   "fieldname": "auto_create_supplier",
+   "fieldtype": "Check",
+   "label": "Auto Create Supplier"
+  },
+  {
+   "default": "0",
+   "fieldname": "auto_link_supplier",
+   "fieldtype": "Check",
+   "label": "Auto Link Supplier"
+  },
+  {
+   "fieldname": "supplier_group",
+   "fieldtype": "Link",
+   "label": "Supplier Group ",
+   "mandatory_depends_on": "eval: doc.auto_create_supplier",
+   "options": "Supplier Group"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-01-11 18:23:01.519616",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Agri Farm Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

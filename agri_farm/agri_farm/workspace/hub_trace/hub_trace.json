@@ -1,0 +1,259 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"6-DBKIYYHE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Hub-Trace</span>\",\"col\":12}},{\"id\":\"3WsiIi5r5d\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total  Registered Farmers\",\"col\":4}},{\"id\":\"qS6VUBoHsR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Survey\",\"col\":4}},{\"id\":\"utKUiq6hiF\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Inactive Farmers (Resigned)\",\"col\":4}},{\"id\":\"oquZnp7jyc\",\"type\":\"card\",\"data\":{\"card_name\":\"Shortcuts \",\"col\":4}},{\"id\":\"kvXS5Y0hxY\",\"type\":\"card\",\"data\":{\"card_name\":\"Quick Links\",\"col\":4}},{\"id\":\"9IQNkXyyVL\",\"type\":\"card\",\"data\":{\"card_name\":\"Pest\",\"col\":4}},{\"id\":\"zcDODQc8bW\",\"type\":\"card\",\"data\":{\"card_name\":\"Add Country Based Things\",\"col\":4}},{\"id\":\"Xn6JsDDh22\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"0VH2XLYSgH\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\",\"col\":12}},{\"id\":\"m7RHcxbnht\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bio ID Attached Farmers \",\"col\":3}},{\"id\":\"OVBS4klKvd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pending Bio ID Registration\",\"col\":3}},{\"id\":\"HLv1Umbe54\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Resigned Farmers\",\"col\":3}}]",
+ "creation": "2023-11-29 12:34:06.712871",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "header",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Hub-Trace",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quick Links",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quick Links",
+   "link_count": 0,
+   "link_to": "Quick LInks",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Organic Certification Link",
+   "link_count": 0,
+   "link_to": "Organic Certification Links",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Corporate Certification Link",
+   "link_count": 0,
+   "link_to": "Corporate Certification LInks",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pest",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pest Diseases",
+   "link_count": 0,
+   "link_to": "Pest Diseases",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Approved Pesticides",
+   "link_count": 0,
+   "link_to": "Approved Pesticides",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Banned Pesticides",
+   "link_count": 0,
+   "link_to": "Banned Pesticides",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shortcuts ",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farmer",
+   "link_count": 0,
+   "link_to": "Farmer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farm",
+   "link_count": 0,
+   "link_to": "Farm Minimal",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Survey",
+   "link_count": 0,
+   "link_to": "Survey",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farm Boundary",
+   "link_count": 0,
+   "link_to": "Farm Boundary",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": " Add Survey Questions",
+   "link_count": 0,
+   "link_to": "Survey Questions",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "App Config",
+   "link_count": 0,
+   "link_to": "App Config",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Add Country Based Things",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Country Based ID CARD and ITEM GROUP",
+   "link_count": 0,
+   "link_to": "Country",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": " Create ID Card",
+   "link_count": 0,
+   "link_to": "ID Cards",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Create Cluster",
+   "link_count": 0,
+   "link_to": "Clusters",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-10-20 23:50:11.667223",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Hub-Trace",
+ "number_cards": [
+  {
+   "label": "Total  Registered Farmers",
+   "number_card_name": "Total  Registered Farmers"
+  },
+  {
+   "label": "Inactive Farmers (Resigned)",
+   "number_card_name": "Inactive Farmers (Resigned)"
+  },
+  {
+   "label": "Total Survey",
+   "number_card_name": "Total Surveys"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 41.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} ",
+   "label": "Bio ID Attached Farmers ",
+   "link_to": "Farmer",
+   "stats_filter": "[[\"Farmer\",\"id_card\",\"is\",\"set\",false],[\"Farmer\",\"id_card_2\",\"is\",\"set\",false],[\"Farmer\",\"id_card_number\",\"is\",\"set\",false],[\"Farmer\",\"id_card_number2\",\"is\",\"set\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Pending Bio ID Registration",
+   "link_to": "Farmer",
+   "stats_filter": "[[\"Farmer\",\"id_card\",\"is\",\"not set\",false],[\"Farmer\",\"id_card_2\",\"is\",\"not set\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "format": "{} Resigned",
+   "label": "Resigned Farmers",
+   "link_to": "Farmer",
+   "stats_filter": "[[\"Farmer\",\"activity_status\",\"=\",\"Resigned\",false]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Hub-Trace"
+}

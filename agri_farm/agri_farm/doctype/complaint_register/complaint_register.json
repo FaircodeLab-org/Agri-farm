@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-06 12:31:13.935837",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "serial_number",
+  "description_of_complaint",
+  "complaint_from",
+  "product_name__batch_no",
+  "root_cause_analysis",
+  "action_taken_on_complaint",
+  "complaint_closed_on",
+  "customer_reference",
+  "authorised_person",
+  "attachment"
+ ],
+ "fields": [
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Complaint Number"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment"
+  },
+  {
+   "fieldname": "description_of_complaint",
+   "fieldtype": "Small Text",
+   "label": "Description of Complaint"
+  },
+  {
+   "fieldname": "complaint_from",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Complaint From"
+  },
+  {
+   "fieldname": "product_name__batch_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Product Name  Batch No"
+  },
+  {
+   "fieldname": "root_cause_analysis",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Root Cause Analysis"
+  },
+  {
+   "fieldname": "action_taken_on_complaint",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Action Taken on Complaint"
+  },
+  {
+   "fieldname": "complaint_closed_on",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Complaint Closed On"
+  },
+  {
+   "fieldname": "customer_reference",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Customer Reference"
+  },
+  {
+   "fieldname": "authorised_person",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Authorised Person"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-07 14:36:32.345314",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Complaint Register",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

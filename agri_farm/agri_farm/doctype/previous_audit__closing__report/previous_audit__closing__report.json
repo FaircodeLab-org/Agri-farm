@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-04 11:14:03.282832",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "year",
+  "auditor_name",
+  "audit_date",
+  "attachment",
+  "ncs_are_closure_attachment",
+  "non_conformities_attachment",
+  "objective_evidence_attachment",
+  "object_evidence_attachment_2",
+  "nc_closing_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Year"
+  },
+  {
+   "fieldname": "auditor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Auditor Name"
+  },
+  {
+   "fieldname": "audit_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Audit Date"
+  },
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "label": "Attachment"
+  },
+  {
+   "fieldname": "ncs_are_closure_attachment",
+   "fieldtype": "Attach",
+   "label": "NCS are Closure Attachment"
+  },
+  {
+   "fieldname": "non_conformities_attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Non Conformities Attachment"
+  },
+  {
+   "fieldname": "objective_evidence_attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Objective Evidence Attachment"
+  },
+  {
+   "fieldname": "nc_closing_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "NC Closing Date"
+  },
+  {
+   "fieldname": "object_evidence_attachment_2",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Object Evidence Attachment 2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-07 14:46:34.132075",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Previous Audit  Closing  Report",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

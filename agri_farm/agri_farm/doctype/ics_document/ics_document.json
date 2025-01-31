@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-06 11:48:05.220948",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "document_name",
+  "serial_number",
+  "document_attachment"
+ ],
+ "fields": [
+  {
+   "fieldname": "document_attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Document Attachment"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "document_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Document Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-08 15:47:55.514460",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "ICS Document",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-11 12:17:13.075132",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farmer",
+  "column_break_2",
+  "crop",
+  "column_break_4",
+  "season",
+  "map_section",
+  "location"
+ ],
+ "fields": [
+  {
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Location"
+  },
+  {
+   "fieldname": "farmer",
+   "fieldtype": "Link",
+   "label": "Farmer",
+   "options": "Farmer"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "crop",
+   "fieldtype": "Link",
+   "label": "Crop",
+   "options": "Crop Unit"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "season",
+   "fieldtype": "Link",
+   "label": "Season",
+   "options": "Fiscal Year"
+  },
+  {
+   "fieldname": "map_section",
+   "fieldtype": "Section Break",
+   "label": "Map"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-11-15 22:21:33.373634",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Farmers Map",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

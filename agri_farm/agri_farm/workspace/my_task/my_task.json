@@ -1,0 +1,43 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"5TtQTp5zia\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">My Task</span>\",\"col\":12}},{\"id\":\"5rEE9XGgcb\",\"type\":\"paragraph\",\"data\":{\"text\":\"A&nbsp;task is an actionable unit or activity which needs to be completed.\",\"col\":12}},{\"id\":\"FVOwFvDt9R\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Task\",\"col\":3}},{\"id\":\"JARqQ1QNZa\",\"type\":\"paragraph\",\"data\":{\"text\":\"ToDo is a list of activities that is to be done by a particular individual.\",\"col\":12}},{\"id\":\"13EjxgNwkl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ToDo\",\"col\":3}}]",
+ "creation": "2022-12-08 12:45:26.920793",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "check",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "My Task",
+ "links": [],
+ "modified": "2024-09-18 23:07:07.770637",
+ "modified_by": "nijinaa@gmail.com",
+ "module": "Agri Farm",
+ "name": "My Task",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 38.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Task",
+   "link_to": "Task",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "ToDo",
+   "link_to": "ToDo",
+   "type": "DocType"
+  }
+ ],
+ "title": "My Task"
+}

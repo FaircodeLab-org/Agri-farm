@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-04 16:34:34.163290",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "attachmentagenda_minutes_word_format",
+  "a",
+  "translation_provision",
+  "objective_evidence_attachment",
+  "action_plan_attachment",
+  "name_of_trainer",
+  "attachment_1",
+  "attachment_2"
+ ],
+ "fields": [
+  {
+   "fieldname": "attachmentagenda_minutes_word_format",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Agenda Attachment"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "translation_provision",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Translation Provision"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Minutes Attachment"
+  },
+  {
+   "fieldname": "objective_evidence_attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Objective Evidence Attachment"
+  },
+  {
+   "fieldname": "action_plan_attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Action Plan Attachment"
+  },
+  {
+   "fieldname": "name_of_trainer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Trainer"
+  },
+  {
+   "fieldname": "attachment_1",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment 1"
+  },
+  {
+   "fieldname": "attachment_2",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment 2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-07 14:17:10.571437",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Training report IPM",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

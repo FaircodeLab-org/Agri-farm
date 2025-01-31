@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "autoname": "field:chemical_properties",
+ "creation": "2023-01-24 12:29:22.495529",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "chemical_properties"
+ ],
+ "fields": [
+  {
+   "fieldname": "chemical_properties",
+   "fieldtype": "Data",
+   "label": "Chemical Properties",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-24 12:29:30.590144",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Chemical Properties",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

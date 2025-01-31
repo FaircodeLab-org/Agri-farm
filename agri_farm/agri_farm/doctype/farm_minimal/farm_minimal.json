@@ -1,0 +1,144 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:farm_id",
+ "creation": "2023-10-07 11:53:25.188488",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "user",
+  "farm_name",
+  "place",
+  "column_break_c9aer",
+  "farmer_name",
+  "farmer_id",
+  "farming_type",
+  "total_area",
+  "section_break_law5d",
+  "area_updates",
+  "section_break_ots4n",
+  "image",
+  "section_break_316hf",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Farm Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "place",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Place",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_area",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Latest Total Area in Acres",
+   "read_only": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "farmer_id",
+   "fieldtype": "Link",
+   "label": "Farmer ID",
+   "options": "Farmer",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "farmer_id.first_name",
+   "fieldname": "farmer_name",
+   "fieldtype": "Data",
+   "label": "Farmer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_c9aer",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Farm ID",
+   "options": "FARM.####"
+  },
+  {
+   "fieldname": "farming_type",
+   "fieldtype": "Data",
+   "label": "Farming Type"
+  },
+  {
+   "fieldname": "section_break_ots4n",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "User",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_316hf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Table",
+   "label": "Image",
+   "options": "images"
+  },
+  {
+   "fieldname": "area_updates",
+   "fieldtype": "Table",
+   "label": "Area Updates",
+   "options": "Total Area Updates"
+  },
+  {
+   "fieldname": "section_break_law5d",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-24 16:05:44.822467",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Farm Minimal",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

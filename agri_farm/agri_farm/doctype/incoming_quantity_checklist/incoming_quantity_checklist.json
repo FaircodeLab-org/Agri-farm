@@ -1,0 +1,210 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-02-11 10:36:43.156702",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "issue_number",
+  "frequency",
+  "column_break_2",
+  "company",
+  "date_of_issue",
+  "type",
+  "section_break_8",
+  "date_of_reception",
+  "product_code",
+  "prodcut_name",
+  "lot_number",
+  "column_break_12",
+  "qty",
+  "total_qty_with_tc_number",
+  "section_break_15",
+  "incoming_quantity_checklist",
+  "section_break_18",
+  "checked_by",
+  "checked_by_name",
+  "column_break_21",
+  "verified_by",
+  "verified_by_name",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Series",
+   "options": "PAT/QA/1QC/.DD./.#",
+   "reqd": 1
+  },
+  {
+   "fieldname": "issue_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Issue Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "\nTo Every Receipt",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date Of Issue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\nNot Defined\nCoffee QC\nSpices QC\nNPD QC",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_of_reception",
+   "fieldtype": "Date",
+   "label": "Date of Reception",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lot_number",
+   "fieldtype": "Data",
+   "label": "Lot Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "label": "Qty Per Box / SACK",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_qty_with_tc_number",
+   "fieldtype": "Data",
+   "label": "Total Qty with TC Number"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "incoming_quantity_checklist",
+   "fieldtype": "Table",
+   "label": "Incoming Quantity Checklist",
+   "options": "Incoming Quantity Checklist Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "product_code",
+   "fieldtype": "Data",
+   "label": "Product Code",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "product_code.item_name",
+   "fieldname": "prodcut_name",
+   "fieldtype": "Data",
+   "label": "Prodcut Name"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "checked_by",
+   "fieldtype": "Link",
+   "label": "Checked By",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "checked_by.employee_name",
+   "fieldname": "checked_by_name",
+   "fieldtype": "Data",
+   "label": "Checked By Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "verified_by",
+   "fieldtype": "Link",
+   "label": "Verified By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "verified_by.employee_name",
+   "fieldname": "verified_by_name",
+   "fieldtype": "Data",
+   "label": "Verified By Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Incoming Quantity Checklist",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-05-11 12:14:02.658138",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Incoming Quantity Checklist",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

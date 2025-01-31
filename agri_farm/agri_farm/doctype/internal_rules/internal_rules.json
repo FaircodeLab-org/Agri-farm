@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-04 12:14:02.669436",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "doc_name",
+  "attachment",
+  "including_amendment"
+ ],
+ "fields": [
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment"
+  },
+  {
+   "fieldname": "including_amendment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Including Amendment"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "doc_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Doc Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-08 15:33:37.967566",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Internal Rules",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

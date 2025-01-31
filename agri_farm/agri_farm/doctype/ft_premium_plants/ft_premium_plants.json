@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-04 15:12:42.909147",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "purpose",
+  "no_of_beneficiaries",
+  "time_limit",
+  "responsible_person",
+  "ftp_fund",
+  "general_fund",
+  "place_of_implimentation",
+  "self_evaluation",
+  "total_budget",
+  "attachment"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Purpose"
+  },
+  {
+   "fieldname": "no_of_beneficiaries",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "No of Beneficiaries"
+  },
+  {
+   "fieldname": "time_limit",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Time Limit"
+  },
+  {
+   "fieldname": "responsible_person",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "ftp_fund",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FTP Fund"
+  },
+  {
+   "fieldname": "general_fund",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "General Fund"
+  },
+  {
+   "fieldname": "place_of_implimentation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Place of Implimentation"
+  },
+  {
+   "fieldname": "self_evaluation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Self Evaluation"
+  },
+  {
+   "fieldname": "total_budget",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Total Budget"
+  },
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "label": "Attachment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-05 16:02:39.071615",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "FT Premium Plants",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

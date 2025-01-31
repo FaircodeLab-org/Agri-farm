@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-06 09:35:25.469921",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "organic_certificate_copies",
+  "validity_date",
+  "certification_body",
+  "attachment_for_scope_certificate"
+ ],
+ "fields": [
+  {
+   "fieldname": "organic_certificate_copies",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Organic Certificate Copies"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "validity_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Validity Date"
+  },
+  {
+   "fieldname": "certification_body",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Certification Body"
+  },
+  {
+   "fieldname": "attachment_for_scope_certificate",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment For Scope Certificate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-07 12:46:07.712907",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Organic Certificate Copies",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

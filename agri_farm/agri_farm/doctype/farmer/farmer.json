@@ -1,0 +1,545 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2022-11-07 10:39:13.048274",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "user",
+  "created_by_field_staff",
+  "field_staff_name",
+  "activity_status",
+  "column_break_ncm0e",
+  "creating_date",
+  "resigned_on",
+  "status",
+  "organically_certified",
+  "section_break_zibg",
+  "successor_name",
+  "relationship_to_farmer",
+  "transfer_date",
+  "column_break_rrur",
+  "successor_email_id",
+  "successor_mobile_number",
+  "column_break_cffc4",
+  "first_name",
+  "phone_number",
+  "email_id",
+  "avatar_url",
+  "id_photo",
+  "farmer_code",
+  "date_of_birth",
+  "column_break_3",
+  "number_of_farms",
+  "type",
+  "company",
+  "father_name",
+  "families_members",
+  "member_since",
+  "certification_type",
+  "section_break_3",
+  "address",
+  "gender",
+  "pin_code",
+  "supplier",
+  "cluster",
+  "cluster_name",
+  "column_break_21",
+  "vendor_code",
+  "country",
+  "country_code",
+  "id_card",
+  "id_card_number",
+  "id_card_2",
+  "id_card_number2",
+  "section_break_19",
+  "season",
+  "inspection_date",
+  "total_farmland",
+  "organic_farm_land",
+  "society",
+  "state",
+  "village",
+  "column_break_22",
+  "bank_name",
+  "ac_holder_name",
+  "bank_acc_no",
+  "bank_ifsc",
+  "bank_branch",
+  "image",
+  "inspector",
+  "district",
+  "project",
+  "section_break_dhbag",
+  "farmer_contract",
+  "section_break_diqjn",
+  "farmer_signature",
+  "column_break_elm2c",
+  "field_staff_signature"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "vendor_code",
+   "fieldtype": "Data",
+   "label": "Vendor Code"
+  },
+  {
+   "fieldname": "season",
+   "fieldtype": "Link",
+   "label": "Season",
+   "options": "Fiscal Year"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bank_name",
+   "fieldtype": "Data",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "bank_ifsc",
+   "fieldtype": "Data",
+   "label": "Bank IFSC Code"
+  },
+  {
+   "fieldname": "bank_acc_no",
+   "fieldtype": "Data",
+   "label": "Bank Account No"
+  },
+  {
+   "fieldname": "bank_branch",
+   "fieldtype": "Data",
+   "label": "Bank Branch"
+  },
+  {
+   "fieldname": "pin_code",
+   "fieldtype": "Data",
+   "label": "Pin Code"
+  },
+  {
+   "fieldname": "total_farmland",
+   "fieldtype": "Data",
+   "label": "Total Farmland"
+  },
+  {
+   "fieldname": "inspection_date",
+   "fieldtype": "Date",
+   "label": "Inspection Date"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Image",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Certified"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "FR.MM.##",
+   "read_only": 1
+  },
+  {
+   "fieldname": "families_members",
+   "fieldtype": "Int",
+   "label": "Families Members"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "options": "Gender"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": " Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Agri Project"
+  },
+  {
+   "fieldname": "society",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Society",
+   "options": "Society"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Link",
+   "label": "State",
+   "options": "State"
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Link",
+   "label": "Village",
+   "options": "Village"
+  },
+  {
+   "fieldname": "inspector",
+   "fieldtype": "Link",
+   "label": "Inspector",
+   "options": "Inspector"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "District"
+  },
+  {
+   "fieldname": "farmer_code",
+   "fieldtype": "Data",
+   "label": "Farmer Code"
+  },
+  {
+   "fieldname": "member_since",
+   "fieldtype": "Data",
+   "label": "Member Since"
+  },
+  {
+   "fieldname": "organic_farm_land",
+   "fieldtype": "Data",
+   "label": "Organic Farm Land"
+  },
+  {
+   "fieldname": "organically_certified",
+   "fieldtype": "Select",
+   "label": "Organically Certified",
+   "options": "\nYes\nNo"
+  },
+  {
+   "depends_on": "eval: doc.organically_certified == 'Yes'",
+   "fieldname": "certification_type",
+   "fieldtype": "Table",
+   "label": "Certification Type",
+   "options": "Certification Type"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "ac_holder_name",
+   "fieldtype": "Data",
+   "label": "A/C Holder Name"
+  },
+  {
+   "fieldname": "farmer_signature",
+   "fieldtype": "Attach Image",
+   "label": "Farmer Signature"
+  },
+  {
+   "fieldname": "field_staff_signature",
+   "fieldtype": "Attach Image",
+   "label": "Field Staff Signature"
+  },
+  {
+   "fieldname": "number_of_farms",
+   "fieldtype": "Data",
+   "label": "Number Of Farms "
+  },
+  {
+   "fieldname": "section_break_dhbag",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_elm2c",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cluster",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Cluster",
+   "options": "Clusters"
+  },
+  {
+   "fetch_from": "cluster.cluster_name",
+   "fieldname": "cluster_name",
+   "fieldtype": "Data",
+   "label": "Cluster Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "id_card",
+   "fieldtype": "Link",
+   "label": "ID card",
+   "options": "ID Cards"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email ID"
+  },
+  {
+   "fetch_from": "country.code",
+   "fieldname": "country_code",
+   "fieldtype": "Data",
+   "label": "Country Code"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "depends_on": "eval:doc.id_card",
+   "fieldname": "id_card_number",
+   "fieldtype": "Data",
+   "label": "ID Card Number"
+  },
+  {
+   "fieldname": "section_break_diqjn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Operator Agreed \n    1. Educate farmers for organic farming certifications.\n    2. To do timely inspections that is required for certifications. \nFarmer/Member Agreed\n    1. I accept the management of Operator. I shall take steps needed for Organic certification and co-operate with the internal and external inspections.\n    2. I shall follow Agriculture Practices in my all farms as per the organic standards educated by operator.\n    3. I will not do any parallel farming, however if I have any plans, I shall inform Operator about the same and the produces from that land shall not be mixed up with Organic certified produce and sold to external parties.\n    4.  With the permission of Operator I will sell the certified products that is produced in my land to any other individuals/organizations.\n    5.   I will participate in training programmes organized by the operator. \n    6. If any deviations from Organic agriculture techniques recommended by Operator in my farm, I shall inform the same to the Internal Inspector appointed by the Operator.\n    7. I shall allow Operator and the Certification Agency appointed by operator to inspect data and photos of my farm, storage and farm diary related to existing farms.\n    8. The information of my family and farm collected by the Operator is with my knowledge and I agree to share it for the business of Operator.\n    9. I will give up my membership with proper information to the operator.\n    10. I will not allow child labour in my farm.\n    11.  I shall engage my family members or seasonal labours in my farm.\n    12. If I engage contract labours in my farm I shall pay equal wages to both gender for equal work.\n    13. I will not use GMO seeds/seedlings or any inputs banned by Organic/Fairtrade/Rainforest Standards in my farm.\n    14. This contract shall be valid till I voluntarily give up my membership from Operator or the Operator cancels my membership.",
+   "fieldname": "farmer_contract",
+   "fieldtype": "Text Editor",
+   "label": "Farmer Contract ",
+   "read_only": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "creating_date",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Creating Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "created_by_field_staff",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Created By (Field staff)",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "created_by_field_staff.employee_name",
+   "fieldname": "field_staff_name",
+   "fieldtype": "Data",
+   "label": "Field Staff Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "id_photo",
+   "fieldtype": "Attach Image",
+   "label": "ID photo"
+  },
+  {
+   "fieldname": "column_break_cffc4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ncm0e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "avatar_url",
+   "fieldtype": "Attach Image",
+   "label": "Avatar URL"
+  },
+  {
+   "fieldname": "id_card_2",
+   "fieldtype": "Link",
+   "label": "ID card",
+   "options": "ID Cards"
+  },
+  {
+   "depends_on": "eval:doc.id_card_2",
+   "fieldname": "id_card_number2",
+   "fieldtype": "Data",
+   "label": "ID Card Number"
+  },
+  {
+   "default": "Active",
+   "fieldname": "activity_status",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Activity Status",
+   "options": "Active\nResigned\nSuccession Transfer"
+  },
+  {
+   "default": "Today",
+   "depends_on": "eval:doc.activity_status == \"Resigned\"",
+   "fieldname": "resigned_on",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Resigned On",
+   "mandatory_depends_on": "eval:doc.activity_status == \"Resigned\""
+  },
+  {
+   "depends_on": "eval:doc.activity_status == \"Succession Transfer\"",
+   "fieldname": "section_break_zibg",
+   "fieldtype": "Section Break",
+   "label": "Successor Details"
+  },
+  {
+   "fieldname": "successor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Successor Name"
+  },
+  {
+   "fieldname": "relationship_to_farmer",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Relationship to Farmer",
+   "options": "\nSpouse\nChild\nSibling\nParent\nOther"
+  },
+  {
+   "fieldname": "transfer_date",
+   "fieldtype": "Date",
+   "label": "Transfer Date"
+  },
+  {
+   "fieldname": "column_break_rrur",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "successor_email_id",
+   "fieldtype": "Data",
+   "label": "Successor Email ID"
+  },
+  {
+   "fieldname": "successor_mobile_number",
+   "fieldtype": "Data",
+   "label": "Successor Mobile Number"
+  }
+ ],
+ "image_field": "image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-21 22:39:22.780280",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Farmer",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "PR-Farmer",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

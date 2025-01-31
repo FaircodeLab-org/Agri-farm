@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-16 15:39:12.181888",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "attach_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Attach Image"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-16 15:40:11.567867",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Image Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

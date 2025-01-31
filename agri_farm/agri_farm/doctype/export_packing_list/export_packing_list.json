@@ -1,0 +1,180 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "EXP-PAC-.YYYY.-.#####",
+ "creation": "2022-12-03 14:15:31.835707",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_invoice",
+  "company",
+  "column_break_3",
+  "series",
+  "section_break_5",
+  "column_break_6",
+  "from_package_no",
+  "column_break_8",
+  "to_package_no",
+  "section_break_10",
+  "get_items",
+  "items",
+  "package_weight_details_section",
+  "pkg_net_weight",
+  "net_weight_uom",
+  "column_break_16",
+  "gross_weight",
+  "gross_weight_uom",
+  "letter_head_section",
+  "letter_head",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "description": "Indicates that the package is a part of this delivery (Only Draft)",
+   "fieldname": "sales_invoice",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sales Invoice",
+   "options": "Sales Invoice",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Series",
+   "options": "EXP-PAC-.YYYY.-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Identification of the package for the delivery (for print)",
+   "fieldname": "from_package_no",
+   "fieldtype": "Int",
+   "label": "From Package No"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "If more than one package of the same type (for print)",
+   "fieldname": "to_package_no",
+   "fieldtype": "Int",
+   "label": "To Package No"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "get_items",
+   "fieldtype": "Button",
+   "label": "Get Items"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Export Packing List Item"
+  },
+  {
+   "fieldname": "package_weight_details_section",
+   "fieldtype": "Section Break",
+   "label": "Package Weight Details"
+  },
+  {
+   "fieldname": "net_weight_uom",
+   "fieldtype": "Link",
+   "label": "Net Weight UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "The gross weight of the package. Usually net weight + packaging material weight. (for print)",
+   "fieldname": "gross_weight",
+   "fieldtype": "Float",
+   "label": "Gross Weight"
+  },
+  {
+   "fieldname": "gross_weight_uom",
+   "fieldtype": "Link",
+   "label": "Gross Weight UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "letter_head_section",
+   "fieldtype": "Section Break",
+   "label": "Letter Head"
+  },
+  {
+   "fieldname": "letter_head",
+   "fieldtype": "Link",
+   "label": "Letter Head",
+   "options": "Letter Head"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Export Packing List",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "description": "The net weight of this package. (calculated automatically as sum of net weight of items)",
+   "fieldname": "pkg_net_weight",
+   "fieldtype": "Float",
+   "label": "Net Weight"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-04-13 20:47:35.569048",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Export Packing List",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

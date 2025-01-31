@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-06 09:57:56.883212",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "risk_level",
+  "cluster",
+  "risk_analysed_date",
+  "inspector_name",
+  "date",
+  "action",
+  "description",
+  "attach_1",
+  "attach"
+ ],
+ "fields": [
+  {
+   "fieldname": "risk_level",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Risk Level",
+   "options": "\nLow\nMedium\nHigh"
+  },
+  {
+   "fieldname": "cluster",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Cluster",
+   "options": "Clusters"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "action",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Action"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Action Made Date"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attach 2"
+  },
+  {
+   "fieldname": "attach_1",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attach 1"
+  },
+  {
+   "fieldname": "risk_analysed_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Risk analysed Date"
+  },
+  {
+   "fieldname": "inspector_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Inspector Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-08 15:42:36.484849",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Risk Asessment",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

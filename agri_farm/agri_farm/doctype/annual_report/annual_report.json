@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-05 12:58:23.586108",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "attachment",
+  "agm_photos"
+ ],
+ "fields": [
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment"
+  },
+  {
+   "fieldname": "agm_photos",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "AGM Photos"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-05 12:58:23.586108",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Annual Report",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

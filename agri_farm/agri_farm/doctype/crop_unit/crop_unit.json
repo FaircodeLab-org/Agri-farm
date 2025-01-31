@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:unit_type",
+ "creation": "2022-11-07 14:05:10.020290",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "unit_type",
+  "description",
+  "column_break_2",
+  "base_value"
+ ],
+ "fields": [
+  {
+   "fieldname": "unit_type",
+   "fieldtype": "Link",
+   "label": "Unit Type",
+   "options": "UOM",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "base_value",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Base Value"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-07 14:08:56.010053",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Crop Unit",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

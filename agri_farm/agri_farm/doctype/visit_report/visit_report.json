@@ -1,0 +1,319 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2022-11-18 12:12:53.864036",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "posting_date",
+  "posting_time",
+  "time_format",
+  "farmer",
+  "farmer_name",
+  "latitude",
+  "longitude",
+  "column_break_4",
+  "attach_image",
+  "image_1",
+  "image_base_64",
+  "company",
+  "visit_type",
+  "section_break_15",
+  "quantity_own_consumptiont",
+  "quantity_sale_consumption",
+  "quantity_left_seed",
+  "column_break_19",
+  "employee_below_30",
+  "permenent_workers",
+  "faritrade_member",
+  "remarks_section",
+  "remarks",
+  "questions_section",
+  "visit_report_questions",
+  "crops",
+  "section_break_28",
+  "crop_purchase_details",
+  "section_break_30",
+  "purchase_image_1",
+  "image_01",
+  "purchase_image_2",
+  "image_2",
+  "column_break_35",
+  "purchase_image_3",
+  "image_3",
+  "purchase_image_4",
+  "image_4",
+  "signatures_section",
+  "farmer_signature",
+  "farmer_signature_image",
+  "column_break_22",
+  "inspector_signature",
+  "inspector_signature_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "visit_type",
+   "fieldtype": "Select",
+   "label": "Visit Type",
+   "options": "Internal Inspection\nCrop Check"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "questions_section",
+   "fieldtype": "Section Break",
+   "label": "Questions"
+  },
+  {
+   "fieldname": "visit_report_questions",
+   "fieldtype": "Table",
+   "label": "Visit Report Questions",
+   "options": "Visit Report Questions"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "farmer",
+   "fieldtype": "Link",
+   "label": "Farmer",
+   "options": "Farmer"
+  },
+  {
+   "fieldname": "farmer_name",
+   "fieldtype": "Data",
+   "label": "Farmer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remarks_section",
+   "fieldtype": "Section Break",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "posting_time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "time_format",
+   "fieldtype": "Select",
+   "label": "Time Format",
+   "options": "\nAM\nPM"
+  },
+  {
+   "fieldname": "crops",
+   "fieldtype": "Table",
+   "label": "Plot Crops",
+   "options": "Plot Crops"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
+  },
+  {
+   "fieldname": "image_1",
+   "fieldtype": "Image",
+   "label": "Image",
+   "options": "attach_image"
+  },
+  {
+   "fieldname": "image_base_64",
+   "fieldtype": "Long Text",
+   "hidden": 1,
+   "label": "Image Base 64"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "VR-"
+  },
+  {
+   "fieldname": "signatures_section",
+   "fieldtype": "Section Break",
+   "label": "Signatures"
+  },
+  {
+   "fieldname": "farmer_signature",
+   "fieldtype": "Attach Image",
+   "label": "Farmer Signature"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inspector_signature",
+   "fieldtype": "Attach Image",
+   "label": "Inspector Signature"
+  },
+  {
+   "fieldname": "farmer_signature_image",
+   "fieldtype": "Image",
+   "label": "Farmer Signature Image",
+   "options": "farmer_signature"
+  },
+  {
+   "fieldname": "inspector_signature_image",
+   "fieldtype": "Image",
+   "label": "Inspector Signature Image",
+   "options": "inspector_signature"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "quantity_own_consumptiont",
+   "fieldtype": "Data",
+   "label": "Quantity Used for Own Consumption MT"
+  },
+  {
+   "fieldname": "quantity_sale_consumption",
+   "fieldtype": "Data",
+   "label": "Quantity Used for Local Sale as Conventional in MT"
+  },
+  {
+   "fieldname": "quantity_left_seed",
+   "fieldtype": "Data",
+   "label": "Quantity Left for Seed Quantity in MT"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employee_below_30",
+   "fieldtype": "Data",
+   "label": "Employee Working Below 30 hrs"
+  },
+  {
+   "fieldname": "permenent_workers",
+   "fieldtype": "Data",
+   "label": "Member Hires and Pays Permanent Workers No"
+  },
+  {
+   "fieldname": "faritrade_member",
+   "fieldtype": "Data",
+   "label": "Members Who are also Members of any other Fairtrade Certified Organizations"
+  },
+  {
+   "fieldname": "section_break_28",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "crop_purchase_details",
+   "fieldtype": "Table",
+   "label": "Crop Purchase Details",
+   "options": "Crop Purchase Details"
+  },
+  {
+   "fieldname": "section_break_30",
+   "fieldtype": "Section Break",
+   "label": "Purchase Images"
+  },
+  {
+   "fieldname": "purchase_image_1",
+   "fieldtype": "Attach Image",
+   "label": "Purchase Image 1"
+  },
+  {
+   "fieldname": "image_01",
+   "fieldtype": "Image",
+   "label": "Image 1",
+   "options": "purchase_image_1"
+  },
+  {
+   "fieldname": "purchase_image_2",
+   "fieldtype": "Attach Image",
+   "label": "Purchase Image 2"
+  },
+  {
+   "fieldname": "image_2",
+   "fieldtype": "Image",
+   "label": "Image 2",
+   "options": "purchase_image_2"
+  },
+  {
+   "fieldname": "column_break_35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "purchase_image_3",
+   "fieldtype": "Attach Image",
+   "label": "Purchase Image 3"
+  },
+  {
+   "fieldname": "image_3",
+   "fieldtype": "Image",
+   "label": "Image 3",
+   "options": "purchase_image_3"
+  },
+  {
+   "fieldname": "purchase_image_4",
+   "fieldtype": "Attach Image",
+   "label": "Purchase Image 4"
+  },
+  {
+   "fieldname": "image_4",
+   "fieldtype": "Image",
+   "label": "Image 4",
+   "options": "purchase_image_4"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-19 14:41:40.824972",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Visit Report",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

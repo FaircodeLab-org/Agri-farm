@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-08 10:10:34.494498",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_driver",
+  "date_and_time_last_ceased_work",
+  "time_commenced_work",
+  "date_and_time_commenced_work",
+  "interval_of_work_from",
+  "date_and_time_finished__work",
+  "total_time_worked"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_driver",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Driver",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_and_time_last_ceased_work",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Date And Time Last Ceased Work"
+  },
+  {
+   "fieldname": "time_commenced_work",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Time Commenced Work"
+  },
+  {
+   "fieldname": "interval_of_work_from",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Interval Of Work "
+  },
+  {
+   "fieldname": "date_and_time_finished__work",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Date And Time Finished  Work",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_time_worked",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Total Time Worked"
+  },
+  {
+   "fieldname": "date_and_time_commenced_work",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Date And Time Commenced Work",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-28 11:24:58.414959",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Period Of Work",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

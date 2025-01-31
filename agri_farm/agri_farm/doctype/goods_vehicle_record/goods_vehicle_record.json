@@ -1,0 +1,159 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-12-08 09:50:24.137233",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "goods_vehicle_record_section",
+  "naming_series",
+  "column_break_exogr",
+  "invoice_number",
+  "posting_date",
+  "section_break_4pity",
+  "name_of_the_permit_holder",
+  "address_of_the_permit_holder",
+  "column_break_g4928",
+  "type_of_permit",
+  "carrier",
+  "registration_no_of_vehicle",
+  "part_i_period_of_work_section",
+  "period_of_work",
+  "section_break_gzwve",
+  "part_ii__particulars_of_journey_and_goods_section",
+  "particulars_of_journey",
+  "section_break_n9hwt"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_the_permit_holder",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name Of The Permit Holder",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_exogr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_4pity",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "address_of_the_permit_holder",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Address Of The Permit Holder",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_g4928",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type_of_permit",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type Of Permit",
+   "options": "\nPermanent\nTemporary",
+   "reqd": 1
+  },
+  {
+   "fieldname": "carrier",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Carrier",
+   "options": "\nPublic\nPrivate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "goods_vehicle_record_section",
+   "fieldtype": "Section Break",
+   "label": "GOODS VEHICLE RECORD"
+  },
+  {
+   "fieldname": "part_i_period_of_work_section",
+   "fieldtype": "Section Break",
+   "label": "Period of Work"
+  },
+  {
+   "fieldname": "period_of_work",
+   "fieldtype": "Table",
+   "label": "Period Of Work",
+   "options": "Period Of Work"
+  },
+  {
+   "fieldname": "section_break_gzwve",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "part_ii__particulars_of_journey_and_goods_section",
+   "fieldtype": "Section Break",
+   "label": "Particulars Of Journey And Goods"
+  },
+  {
+   "fieldname": "section_break_n9hwt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "company.default_naming_series__",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Serial Number",
+   "options": "GVR-P.-.####"
+  },
+  {
+   "fieldname": "registration_no_of_vehicle",
+   "fieldtype": "Data",
+   "label": "Registration No of Vehicle",
+   "reqd": 1
+  },
+  {
+   "fieldname": "particulars_of_journey",
+   "fieldtype": "Table",
+   "label": "Part II Particulars Of Journey And Goods",
+   "options": "Particulars Of Journey And Goods"
+  },
+  {
+   "fieldname": "invoice_number",
+   "fieldtype": "Data",
+   "label": "Invoice Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-01 12:46:12.989910",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "GOODS VEHICLE RECORD",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

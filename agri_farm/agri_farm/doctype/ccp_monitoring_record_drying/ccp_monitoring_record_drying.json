@@ -1,0 +1,155 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-01-24 12:52:28.190986",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "issue_no",
+  "revision_no",
+  "frequency",
+  "column_break_5",
+  "company",
+  "date_of_issue",
+  "revision_date",
+  "department",
+  "section_break_10",
+  "drying_record",
+  "section_break_12",
+  "created_by",
+  "employee_name",
+  "column_break_15",
+  "approved_by",
+  "approver_name",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "issue_no",
+   "fieldtype": "Int",
+   "label": "Issue Number"
+  },
+  {
+   "fieldname": "revision_no",
+   "fieldtype": "Int",
+   "label": "Revision Number"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "\nDaily\nTwice In A Week*\nEvery Two Hours"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "label": "Date of Issue"
+  },
+  {
+   "fieldname": "revision_date",
+   "fieldtype": "Date",
+   "label": "Revision Date"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "drying_record",
+   "fieldtype": "Table",
+   "label": "Drying Record",
+   "options": "Drying Record"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "created_by",
+   "fieldtype": "Link",
+   "label": "Issued By",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Link",
+   "label": "Approved By",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "approver_name",
+   "fieldtype": "Data",
+   "label": "Approver Name"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "CCP Monitoring Record Drying",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "PAT/QA/MRD/.DD./.#"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-01-24 15:38:40.076521",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "CCP Monitoring Record Drying",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-15 12:10:36.018588",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "time",
+  "lot_no",
+  "ferrous",
+  "column_break_5",
+  "nonferrous",
+  "stainless_steel",
+  "checked_by",
+  "employee_name",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Time"
+  },
+  {
+   "fieldname": "lot_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Lot No"
+  },
+  {
+   "fieldname": "ferrous",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ferrous (Fe)- 2.5 mm"
+  },
+  {
+   "fieldname": "nonferrous",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nonferrous (non Fe)-3 mm"
+  },
+  {
+   "fieldname": "stainless_steel",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Stainless Steel (SS)-3.5 mm"
+  },
+  {
+   "fieldname": "checked_by",
+   "fieldtype": "Link",
+   "label": "Checked By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "checked_by.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-15 12:13:02.001029",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Metal Detection Record Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

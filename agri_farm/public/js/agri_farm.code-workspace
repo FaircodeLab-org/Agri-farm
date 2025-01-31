@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../payments"
+		},
+		{
+			"path": "../../../../india_compliance"
+		},
+		{
+			"path": "../../../../hrms"
+		},
+		{
+			"path": "../../../../frappe"
+		},
+		{
+			"path": "../../../../erpnext"
+		}
+	]
+}

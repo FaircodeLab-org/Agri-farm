@@ -1,0 +1,144 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:trace_net_id",
+ "creation": "2022-11-11 15:48:58.348761",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "trace_net_id",
+  "purchase_receipt",
+  "supplier_name",
+  "delivery_note",
+  "customer_name",
+  "column_break_4",
+  "posting_date",
+  "entry_type",
+  "get_invoice",
+  "section_break_10",
+  "trace_net_entry_item",
+  "deli_note",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "trace_net_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Trace Net ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Link",
+   "label": "Supplier Name",
+   "options": "Supplier",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.entry_type == \"Inward\"",
+   "fieldname": "purchase_receipt",
+   "fieldtype": "Table",
+   "label": "Purchase Receipt",
+   "mandatory_depends_on": "eval:doc.entry_type == \"Inward\"",
+   "options": "Trace Net Purchase Receipt"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "entry_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Entry Type",
+   "options": "\nInward\nOutward"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Trace Net Entry",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.entry_type == \"Outward\"",
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "label": "Customer Name",
+   "mandatory_depends_on": "eval:doc.entry_type == \"Outward\"",
+   "options": "Customer",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.entry_type == \"Outward\"",
+   "fieldname": "delivery_note",
+   "fieldtype": "Link",
+   "label": "Delivery Note",
+   "mandatory_depends_on": "eval:doc.entry_type == \"Outward\"",
+   "options": "Delivery Note"
+  },
+  {
+   "fieldname": "get_invoice",
+   "fieldtype": "Button",
+   "label": "Get Invoice"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Posting Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "trace_net_entry_item",
+   "fieldtype": "Table",
+   "label": "Trace Net Entry Item",
+   "options": "Trace Net Entry Item"
+  },
+  {
+   "fieldname": "deli_note",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Deli Note",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-03-29 14:18:37.099139",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Trace Net Entry",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

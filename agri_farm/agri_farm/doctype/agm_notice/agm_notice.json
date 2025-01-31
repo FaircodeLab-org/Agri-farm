@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-05 12:50:14.875581",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sending_details",
+  "sent_date",
+  "attachment_notice",
+  "attachment_acknowledgement"
+ ],
+ "fields": [
+  {
+   "fieldname": "sending_details",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sending Details"
+  },
+  {
+   "fieldname": "sent_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Sent Date"
+  },
+  {
+   "fieldname": "attachment_notice",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment Notice"
+  },
+  {
+   "fieldname": "attachment_acknowledgement",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment Acknowledgement"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-05 12:50:14.875581",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Agm notice",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

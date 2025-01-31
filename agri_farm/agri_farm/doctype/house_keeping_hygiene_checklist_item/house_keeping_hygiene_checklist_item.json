@@ -1,0 +1,158 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-15 11:47:26.945804",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "time_in",
+  "room_cleaned_or_not",
+  "vacuum_air_blower_cleaning",
+  "hot_water_moping",
+  "drying",
+  "cleaning_column",
+  "tables__shelf",
+  "all_brewing_equipments",
+  "cutlery__wash_area",
+  "water_filling",
+  "cleaning_towels",
+  "column_break_10",
+  "time_out",
+  "remarks",
+  "done_by",
+  "employee",
+  "monitored_by",
+  "supervisor"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "time_in",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Time in"
+  },
+  {
+   "fieldname": "room_cleaned_or_not",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Room Cleaned Or Not",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "vacuum_air_blower_cleaning",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Vacuum / Air Blower Cleaning",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "hot_water_moping",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Hot Water Moping",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "drying",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Drying",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "cleaning_column",
+   "fieldtype": "Column Break",
+   "label": "Cleaning"
+  },
+  {
+   "fieldname": "tables__shelf",
+   "fieldtype": "Select",
+   "label": "Tables  & Shelf",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "all_brewing_equipments",
+   "fieldtype": "Select",
+   "label": "All Brewing Equipments",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "cutlery__wash_area",
+   "fieldtype": "Select",
+   "label": "Cutlery & Wash Area",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "water_filling",
+   "fieldtype": "Select",
+   "label": "Water Filling",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "cleaning_towels",
+   "fieldtype": "Select",
+   "label": "Cleaning Towels",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "time_out",
+   "fieldtype": "Time",
+   "label": "Time Out"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "done_by",
+   "fieldtype": "Link",
+   "label": "Done By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "done_by.employee_name",
+   "fieldname": "employee",
+   "fieldtype": "Data",
+   "label": "Employee",
+   "read_only": 1
+  },
+  {
+   "fieldname": "monitored_by",
+   "fieldtype": "Link",
+   "label": "Monitored by",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "monitored_by.employee_name",
+   "fieldname": "supervisor",
+   "fieldtype": "Data",
+   "label": "Supervisor",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-15 11:54:22.360393",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "House Keeping Hygiene Checklist Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

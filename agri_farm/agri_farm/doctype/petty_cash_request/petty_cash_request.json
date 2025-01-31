@@ -1,0 +1,270 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-01-09 09:44:00.646905",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "type",
+  "employee",
+  "other_party",
+  "other_party_name",
+  "employee_name",
+  "department",
+  "column_break_4",
+  "posting_date",
+  "employee_account",
+  "other_party_account",
+  "petty_cash_approver",
+  "approval_status",
+  "section_break_8",
+  "purpose",
+  "section_break_11",
+  "request_amount",
+  "sanctioned_amount",
+  "paid_amount",
+  "pending_amount",
+  "section_break_7",
+  "status",
+  "company",
+  "cost_center",
+  "column_break_18",
+  "mode_of_payment",
+  "reference_section",
+  "journal_entry_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "PCR-.YYYY.-"
+  },
+  {
+   "depends_on": "eval:doc.type==\"Employee\"",
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.type==\"Employee\"",
+   "fetch_from": "employee.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Read Only",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Posting Date",
+   "reqd": 1
+  },
+  {
+   "depends_on": "eval:doc.type==\"Employee\"",
+   "fetch_from": "employee.department",
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department",
+   "read_only": 1
+  },
+  {
+   "fieldname": "petty_cash_approver",
+   "fieldtype": "Link",
+   "label": "Petty Cash Approver",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Draft",
+   "fieldname": "approval_status",
+   "fieldtype": "Select",
+   "label": "Approval Status",
+   "options": "Draft\nApproved\nRejected"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Remarks",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "request_amount",
+   "fieldtype": "Currency",
+   "label": "Request Amount"
+  },
+  {
+   "default": "0",
+   "fieldname": "sanctioned_amount",
+   "fieldtype": "Currency",
+   "label": "Sanctioned Amount"
+  },
+  {
+   "default": "0",
+   "fieldname": "paid_amount",
+   "fieldtype": "Currency",
+   "label": "Paid Amount",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "pending_amount",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Pending Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Unpaid",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Status",
+   "no_copy": 1,
+   "options": "\nPaid\nUnpaid\nPartially Paid",
+   "read_only": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "company.cost_center",
+   "fieldname": "cost_center",
+   "fieldtype": "Link",
+   "label": "Cost Center",
+   "options": "Cost Center",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.type==\"Employee\"",
+   "fetch_from": "employee.petty_cash_account",
+   "fieldname": "employee_account",
+   "fieldtype": "Link",
+   "label": "Petty Cash Account",
+   "options": "Account",
+   "read_only": 1
+  },
+  {
+   "fieldname": "mode_of_payment",
+   "fieldtype": "Link",
+   "label": "Mode of Payment",
+   "options": "Mode of Payment"
+  },
+  {
+   "fieldname": "reference_section",
+   "fieldtype": "Section Break",
+   "label": "Reference"
+  },
+  {
+   "fieldname": "journal_entry_date",
+   "fieldtype": "Date",
+   "label": "Journal Entry Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Petty Cash Request",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\nEmployee\nOther Party"
+  },
+  {
+   "depends_on": "eval:doc.type==\"Other Party\"",
+   "fieldname": "other_party",
+   "fieldtype": "Link",
+   "label": "Other Party",
+   "options": "Other Party"
+  },
+  {
+   "fetch_from": "other_party.party_name",
+   "fieldname": "other_party_name",
+   "fieldtype": "Data",
+   "label": "Other Party Name",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.type==\"Other Party\"",
+   "fetch_from": "other_party.petty_cash_account",
+   "fieldname": "other_party_account",
+   "fieldtype": "Link",
+   "label": "Petty Cash Account",
+   "options": "Account",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-10-28 11:42:15.072225",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Petty Cash Request",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "employee,employee_name",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-24 12:30:29.326047",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "physical_properties",
+  "chemical_properties"
+ ],
+ "fields": [
+  {
+   "fieldname": "physical_properties",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Physical Properties",
+   "options": "Physical Properties"
+  },
+  {
+   "fieldname": "chemical_properties",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Chemical Properties",
+   "options": "Chemical Properties"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-24 12:30:29.326047",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Physical and Chemical Properties",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,33 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-12-01 19:50:49.100787",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "district"
+ ],
+ "fields": [
+  {
+   "fieldname": "district",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "District",
+   "options": "District"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-01 19:50:49.100787",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Agri Farm District",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

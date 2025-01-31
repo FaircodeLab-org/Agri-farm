@@ -1,0 +1,927 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-10-07 12:54:44.120919",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "section_break_lv5o4",
+  "survey_name",
+  "survey_number",
+  "column_break_mpqad",
+  "inspector_name",
+  "farm_person_name",
+  "section_break_kucgn",
+  "farmer_id",
+  "farmer_name",
+  "farm_id",
+  "farm_name",
+  "column_break_pgvt3",
+  "field_staff",
+  "field_staff_name",
+  "plot_number",
+  "farming_type",
+  "section_break_yrssn",
+  "farm_area",
+  "farm_nonbio_area",
+  "is_single_crop",
+  "column_break_21qcs",
+  "date",
+  "start_time",
+  "end_time",
+  "column_break_kppcy",
+  "survey_details",
+  "crop",
+  "animal_husbandry",
+  "fertilizer_details",
+  "farm_boundary",
+  "farm_image",
+  "survey_quastions_tab",
+  "fetch_survey_questions",
+  "farm_details_questions_section",
+  "farm_details_questions",
+  "section_break_zvlns",
+  "column_break_l97z9",
+  "column_break_fyo1w",
+  "column_break_hfwwg",
+  "farm_details_risk_score",
+  "section_break_ghbr9",
+  "labour_questions",
+  "section_break_lmyqv",
+  "column_break_ddovt",
+  "column_break_cujql",
+  "column_break_wpbbg",
+  "labour_risk_score",
+  "section_break_j0k1q",
+  "fertigation_questions",
+  "section_break_to0un",
+  "column_break_hkjlu",
+  "column_break_keyjg",
+  "column_break_ikhqj",
+  "fertigation_risk_score",
+  "section_break_lwxcz",
+  "mulching_questions",
+  "section_break_ymbbq",
+  "column_break_vpqxb",
+  "column_break_ymeqs",
+  "column_break_zgxzs",
+  "mulching_risk_score",
+  "section_break_bpwkx",
+  "tab_break_sbsha",
+  "section_break_ywv9w",
+  "irrigation_questions",
+  "section_break_a9wwe",
+  "column_break_qrkkl",
+  "column_break_x5qki",
+  "column_break_rex37",
+  "irrigation_risk_score",
+  "section_break_mjbvn",
+  "weed_control_questions",
+  "section_break_kzydx",
+  "column_break_ist4g",
+  "column_break_nqvv4",
+  "column_break_p3nuq",
+  "weed_control_risk_score",
+  "section_break_wywwn",
+  "crop_questions",
+  "section_break_7orvy",
+  "column_break_2pv0u",
+  "column_break_3oezm",
+  "column_break_pkzmz",
+  "crop_risk_score",
+  "section_break_tvktf",
+  "biodiversity_questions",
+  "section_break_kajp9",
+  "column_break_dxhbn",
+  "column_break_ucuf1",
+  "column_break_nobx8",
+  "biodiversity_risk_score",
+  "section_break_asukp",
+  "risk_questions",
+  "section_break_qohp2",
+  "column_break_zmxmv",
+  "column_break_wb96n",
+  "column_break_cad1v",
+  "risk_score",
+  "section_break_3obcf",
+  "tab_break_qyiwq",
+  "section_break_zbv4e",
+  "processing_questions",
+  "section_break_te1kx",
+  "column_break_pq5x9",
+  "column_break_pm6ps",
+  "column_break_e1onh",
+  "processing_risk_score",
+  "section_break_kkgpq",
+  "storage_questions",
+  "section_break_gez1m",
+  "column_break_yefvr",
+  "column_break_aer5o",
+  "column_break_ioydt",
+  "storage_risk_score",
+  "section_break_gfqzs",
+  "training_questions",
+  "section_break_uxbb8",
+  "column_break_eglxr",
+  "column_break_dvhgw",
+  "column_break_r38zr",
+  "training_risk_score",
+  "section_break_tdv1i",
+  "others_questions",
+  "section_break_gq2hb",
+  "column_break_7luyj",
+  "column_break_cuk7i",
+  "column_break_y0y5r",
+  "others_risk_score",
+  "section_break_24ofb",
+  "total_risk_score",
+  "inspection_records_tab",
+  "inspection_records_section",
+  "inspection_records",
+  "section_break_lmfc4",
+  "column_break_kvwt6",
+  "column_break_ftpy4",
+  "column_break_nre6r",
+  "risk",
+  "section_break_ngrsc",
+  "section_break_z9zht",
+  "section_break_zapde",
+  "farmer_signature",
+  "column_break_3nreb",
+  "field_staff_signature",
+  "section_break_fwp2m",
+  "is_submitted",
+  "remark",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "End Time"
+  },
+  {
+   "fieldname": "survey_details",
+   "fieldtype": "Small Text",
+   "label": "Survey Details"
+  },
+  {
+   "fieldname": "column_break_pgvt3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kppcy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "survey_quastions_tab",
+   "fieldtype": "Tab Break",
+   "label": "Survey  Questions 1"
+  },
+  {
+   "fieldname": "farmer_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Farmer ID",
+   "options": "Farmer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Survey ID",
+   "options": "S.####",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "farmer_id.first_name",
+   "fieldname": "farmer_name",
+   "fieldtype": "Data",
+   "label": "Farmer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "farm_id",
+   "fieldtype": "Link",
+   "label": "Farm ID",
+   "options": "Farm Minimal",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "farm_id.farm_name",
+   "fieldname": "farm_name",
+   "fieldtype": "Data",
+   "label": "Farm Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "field_staff",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Field Staff ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "plot_number",
+   "fieldtype": "Data",
+   "label": "Plot Number"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_single_crop",
+   "fieldtype": "Check",
+   "label": "Is Single Crop"
+  },
+  {
+   "fieldname": "farm_area",
+   "fieldtype": "Float",
+   "label": "Farm Area in Acres"
+  },
+  {
+   "fieldname": "farm_nonbio_area",
+   "fieldtype": "Float",
+   "label": "Farm Non Bio Area"
+  },
+  {
+   "fieldname": "animal_husbandry",
+   "fieldtype": "Table",
+   "label": "Animal Husbandry",
+   "options": "Survey Animal  Husbandry Table"
+  },
+  {
+   "fieldname": "farm_boundary",
+   "fieldtype": "Table",
+   "label": "Farm Boundary",
+   "options": "Boundary"
+  },
+  {
+   "fieldname": "farmer_signature",
+   "fieldtype": "Attach Image",
+   "label": "Farmer Signature"
+  },
+  {
+   "fieldname": "field_staff_signature",
+   "fieldtype": "Attach Image",
+   "label": "Field Staff Signature"
+  },
+  {
+   "fieldname": "section_break_yrssn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_21qcs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_3nreb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_z9zht",
+   "fieldtype": "Tab Break",
+   "label": "Submit "
+  },
+  {
+   "fieldname": "survey_name",
+   "fieldtype": "Data",
+   "label": "Survey Name"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "survey_number",
+   "fieldtype": "Data",
+   "label": "Survey Number"
+  },
+  {
+   "fieldname": "farming_type",
+   "fieldtype": "Data",
+   "label": "Farming Type"
+  },
+  {
+   "fieldname": "crop",
+   "fieldtype": "Table",
+   "label": "Crop",
+   "options": "Survey Crop Qty Table"
+  },
+  {
+   "fieldname": "section_break_fwp2m",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "labour_questions",
+   "fieldtype": "Table",
+   "label": "Labour Questions",
+   "options": "Survey Labour Questions"
+  },
+  {
+   "fieldname": "fertigation_questions",
+   "fieldtype": "Table",
+   "label": "Fertigation Questions",
+   "options": "Survey Fertigation Questions"
+  },
+  {
+   "fieldname": "mulching_questions",
+   "fieldtype": "Table",
+   "label": "Mulching Questions",
+   "options": "Survey Mulching Questions"
+  },
+  {
+   "fieldname": "irrigation_questions",
+   "fieldtype": "Table",
+   "label": " Irrigation Questions",
+   "options": "Survey Irrigation Questions"
+  },
+  {
+   "fieldname": "weed_control_questions",
+   "fieldtype": "Table",
+   "label": "Weed control Questions",
+   "options": "Survey Weed control Questions"
+  },
+  {
+   "fieldname": "crop_questions",
+   "fieldtype": "Table",
+   "label": " Crop Questions",
+   "options": "Survey Crop Questions"
+  },
+  {
+   "fieldname": "biodiversity_questions",
+   "fieldtype": "Table",
+   "label": "Biodiversity Questions",
+   "options": "Survey Biodiversity Questions"
+  },
+  {
+   "fieldname": "risk_questions",
+   "fieldtype": "Table",
+   "label": "Risk Questions",
+   "options": "Survey Risk Questions"
+  },
+  {
+   "fieldname": "processing_questions",
+   "fieldtype": "Table",
+   "label": "Processing Questions",
+   "options": "Survey Processing Questions"
+  },
+  {
+   "fieldname": "storage_questions",
+   "fieldtype": "Table",
+   "label": "Storage Questions",
+   "options": "Survey Storage Questions"
+  },
+  {
+   "fieldname": "training_questions",
+   "fieldtype": "Table",
+   "label": "Training Questions",
+   "options": "Survey Training Questions"
+  },
+  {
+   "fieldname": "others_questions",
+   "fieldtype": "Table",
+   "label": "Others Questions",
+   "options": "Survey Others Questions"
+  },
+  {
+   "fieldname": "tab_break_sbsha",
+   "fieldtype": "Tab Break",
+   "label": "Survey  Questions 2"
+  },
+  {
+   "fieldname": "tab_break_qyiwq",
+   "fieldtype": "Tab Break",
+   "label": "Survey  Questions 3"
+  },
+  {
+   "fieldname": "farm_details_questions",
+   "fieldtype": "Table",
+   "label": "Farm Details Questions",
+   "options": "Survey Farm Details Questions"
+  },
+  {
+   "fieldname": "section_break_ghbr9",
+   "fieldtype": "Section Break",
+   "label": "Labour Questions"
+  },
+  {
+   "fieldname": "section_break_zvlns",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_l97z9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_fyo1w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hfwwg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_lmyqv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ddovt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_cujql",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wpbbg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_j0k1q",
+   "fieldtype": "Section Break",
+   "label": "Labour Questions"
+  },
+  {
+   "fieldname": "section_break_to0un",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hkjlu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_keyjg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ikhqj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_lwxcz",
+   "fieldtype": "Section Break",
+   "label": "Mulching Questions"
+  },
+  {
+   "fieldname": "section_break_ymbbq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_vpqxb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ymeqs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_zgxzs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_bpwkx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_a9wwe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_qrkkl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_x5qki",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rex37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_mjbvn",
+   "fieldtype": "Section Break",
+   "label": "Weed control Questions"
+  },
+  {
+   "fieldname": "section_break_kzydx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ist4g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nqvv4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_p3nuq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_wywwn",
+   "fieldtype": "Section Break",
+   "label": " Crop Questions"
+  },
+  {
+   "fieldname": "section_break_7orvy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_2pv0u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_3oezm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pkzmz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_tvktf",
+   "fieldtype": "Section Break",
+   "label": "Biodiversity Questions"
+  },
+  {
+   "fieldname": "section_break_kajp9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_dxhbn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ucuf1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nobx8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_asukp",
+   "fieldtype": "Section Break",
+   "label": "Risk Questions"
+  },
+  {
+   "fieldname": "section_break_qohp2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_zmxmv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wb96n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_cad1v",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_3obcf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_te1kx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_pq5x9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pm6ps",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_e1onh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_kkgpq",
+   "fieldtype": "Section Break",
+   "label": "Storage Questions"
+  },
+  {
+   "fieldname": "section_break_gez1m",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_yefvr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_aer5o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ioydt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_gfqzs",
+   "fieldtype": "Section Break",
+   "label": "Training Questions"
+  },
+  {
+   "fieldname": "section_break_uxbb8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_eglxr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dvhgw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_r38zr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_tdv1i",
+   "fieldtype": "Section Break",
+   "label": "Others Questions"
+  },
+  {
+   "fieldname": "section_break_gq2hb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_7luyj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_cuk7i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_y0y5r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "farm_details_risk_score",
+   "fieldtype": "Float",
+   "label": "Farm Details Risk Score"
+  },
+  {
+   "fieldname": "labour_risk_score",
+   "fieldtype": "Float",
+   "label": "Labour Risk Score"
+  },
+  {
+   "fieldname": "fertigation_risk_score",
+   "fieldtype": "Float",
+   "label": "Fertigation Risk Score"
+  },
+  {
+   "fieldname": "mulching_risk_score",
+   "fieldtype": "Float",
+   "label": "Mulching Risk Score"
+  },
+  {
+   "fieldname": "irrigation_risk_score",
+   "fieldtype": "Float",
+   "label": "Irrigation Risk Score"
+  },
+  {
+   "fieldname": "weed_control_risk_score",
+   "fieldtype": "Float",
+   "label": "Weed control Risk Score"
+  },
+  {
+   "fieldname": "crop_risk_score",
+   "fieldtype": "Float",
+   "label": "Crop Risk Score"
+  },
+  {
+   "fieldname": "biodiversity_risk_score",
+   "fieldtype": "Float",
+   "label": "Biodiversity Risk Score"
+  },
+  {
+   "fieldname": "risk_score",
+   "fieldtype": "Float",
+   "label": "Risk Score"
+  },
+  {
+   "fieldname": "processing_risk_score",
+   "fieldtype": "Float",
+   "label": "Processing Risk Score"
+  },
+  {
+   "fieldname": "storage_risk_score",
+   "fieldtype": "Float",
+   "label": "Storage Risk Score"
+  },
+  {
+   "fieldname": "training_risk_score",
+   "fieldtype": "Float",
+   "label": "Training Risk Score"
+  },
+  {
+   "fieldname": "others_risk_score",
+   "fieldtype": "Float",
+   "label": "Others Risk Score"
+  },
+  {
+   "fieldname": "total_risk_score",
+   "fieldtype": "Float",
+   "label": "Total Risk Score"
+  },
+  {
+   "fieldname": "section_break_24ofb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "farm_details_questions_section",
+   "fieldtype": "Section Break",
+   "label": "Farm Details Questions"
+  },
+  {
+   "fieldname": "section_break_ywv9w",
+   "fieldtype": "Section Break",
+   "label": " Irrigation Questions"
+  },
+  {
+   "fieldname": "section_break_zbv4e",
+   "fieldtype": "Section Break",
+   "label": "Processing Questions"
+  },
+  {
+   "fieldname": "farm_person_name",
+   "fieldtype": "Data",
+   "label": "Farm Person Name"
+  },
+  {
+   "fetch_from": "field_staff.employee_name",
+   "fieldname": "field_staff_name",
+   "fieldtype": "Data",
+   "label": "Field Staff Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "inspector_name",
+   "fieldtype": "Data",
+   "label": "Inspector Name"
+  },
+  {
+   "fieldname": "section_break_kucgn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_mpqad",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_lv5o4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Survey",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_zapde",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "farm_image",
+   "fieldtype": "Table",
+   "label": "Farm image",
+   "options": "Image Table"
+  },
+  {
+   "fieldname": "inspection_records_tab",
+   "fieldtype": "Tab Break",
+   "label": "Inspection Records"
+  },
+  {
+   "fieldname": "inspection_records_section",
+   "fieldtype": "Section Break",
+   "label": "Inspection Records"
+  },
+  {
+   "fieldname": "inspection_records",
+   "fieldtype": "Table",
+   "label": "Inspection Records",
+   "options": "Survey Inspection Records"
+  },
+  {
+   "fieldname": "section_break_lmfc4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_kvwt6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ftpy4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nre6r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "risk",
+   "fieldtype": "Float",
+   "label": "Risk Score"
+  },
+  {
+   "fieldname": "section_break_ngrsc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_submitted",
+   "fieldtype": "Check",
+   "label": "Is Submitted"
+  },
+  {
+   "bold": 1,
+   "depends_on": "eval:doc.docstatus == 0",
+   "fieldname": "fetch_survey_questions",
+   "fieldtype": "Button",
+   "label": "Fetch Survey Questions"
+  },
+  {
+   "fieldname": "fertilizer_details",
+   "fieldtype": "Table",
+   "label": "Fertilizer Details",
+   "options": "Survey Fertilizer Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-10-20 23:32:09.520285",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Survey",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "PR-Farmer",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

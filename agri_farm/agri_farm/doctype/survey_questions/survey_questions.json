@@ -1,0 +1,250 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-26 10:20:46.175081",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "questions_tab",
+  "farm_details_section",
+  "farm_details_questions",
+  "labour_section",
+  "labour_questions",
+  "fertigation_section",
+  "fertigation_questions",
+  "mulching",
+  "mulching_questions",
+  "tab_break_wtt53",
+  "section_break_tluzl",
+  "irrigation_questions",
+  "weed_control_section",
+  "weed_control_questions",
+  "crop_section",
+  "crop_questions",
+  "biodiversity_section",
+  "biodiversity_questions",
+  "risk_section",
+  "risk_questions",
+  "tab_break_bsptg",
+  "section_break_x4ixv",
+  "processing_questions",
+  "storage_section",
+  "storage_questions",
+  "training_section",
+  "training_questions",
+  "others_section",
+  "others_questions",
+  "inspection_records_tab",
+  "inspection_records"
+ ],
+ "fields": [
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "farm_details_questions",
+   "fieldtype": "Table",
+   "label": "Farm Details Questions",
+   "options": "Farm Details Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "labour_questions",
+   "fieldtype": "Table",
+   "label": "Labour Questions",
+   "options": "Labour Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "fertigation_questions",
+   "fieldtype": "Table",
+   "label": "Fertigation Questions",
+   "options": "Fertigation Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "mulching_questions",
+   "fieldtype": "Table",
+   "label": "Mulching Questions",
+   "options": "Mulching Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "irrigation_questions",
+   "fieldtype": "Table",
+   "label": "Irrigation Questions",
+   "options": "Irrigation Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "weed_control_questions",
+   "fieldtype": "Table",
+   "label": "Weed control Questions",
+   "options": "Weed control Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "crop_questions",
+   "fieldtype": "Table",
+   "label": "Crop Questions",
+   "options": "Crop Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "biodiversity_questions",
+   "fieldtype": "Table",
+   "label": "Biodiversity Questions",
+   "options": "Biodiversity Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "risk_questions",
+   "fieldtype": "Table",
+   "label": "Risk Questions",
+   "options": "Risk Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "processing_questions",
+   "fieldtype": "Table",
+   "label": "Processing Questions",
+   "options": "Processing Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "storage_questions",
+   "fieldtype": "Table",
+   "label": "Storage Questions",
+   "options": "Storage Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "training_questions",
+   "fieldtype": "Table",
+   "label": "Training Questions",
+   "options": "Training Questions"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "others_questions",
+   "fieldtype": "Table",
+   "label": "Others Questions",
+   "options": "Others Questions"
+  },
+  {
+   "fieldname": "section_break_tluzl",
+   "fieldtype": "Section Break",
+   "label": "Irrigation"
+  },
+  {
+   "fieldname": "section_break_x4ixv",
+   "fieldtype": "Section Break",
+   "label": "Processing"
+  },
+  {
+   "fieldname": "farm_details_section",
+   "fieldtype": "Section Break",
+   "label": "Farm Details"
+  },
+  {
+   "fieldname": "labour_section",
+   "fieldtype": "Section Break",
+   "label": "Labour"
+  },
+  {
+   "fieldname": "fertigation_section",
+   "fieldtype": "Section Break",
+   "label": "Fertigation"
+  },
+  {
+   "fieldname": "mulching",
+   "fieldtype": "Section Break",
+   "label": "Mulching"
+  },
+  {
+   "fieldname": "weed_control_section",
+   "fieldtype": "Section Break",
+   "label": "Weed control"
+  },
+  {
+   "fieldname": "crop_section",
+   "fieldtype": "Section Break",
+   "label": "Crop"
+  },
+  {
+   "fieldname": "biodiversity_section",
+   "fieldtype": "Section Break",
+   "label": "Biodiversity"
+  },
+  {
+   "fieldname": "risk_section",
+   "fieldtype": "Section Break",
+   "label": "Risk"
+  },
+  {
+   "fieldname": "storage_section",
+   "fieldtype": "Section Break",
+   "label": "Storage"
+  },
+  {
+   "fieldname": "training_section",
+   "fieldtype": "Section Break",
+   "label": "Training"
+  },
+  {
+   "fieldname": "others_section",
+   "fieldtype": "Section Break",
+   "label": "Others"
+  },
+  {
+   "fieldname": "tab_break_wtt53",
+   "fieldtype": "Tab Break",
+   "label": "Questions 2"
+  },
+  {
+   "fieldname": "tab_break_bsptg",
+   "fieldtype": "Tab Break",
+   "label": "Questions 3"
+  },
+  {
+   "fieldname": "questions_tab",
+   "fieldtype": "Tab Break",
+   "label": "Questions 1"
+  },
+  {
+   "fieldname": "inspection_records_tab",
+   "fieldtype": "Tab Break",
+   "label": "Inspection Records"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "inspection_records",
+   "fieldtype": "Table",
+   "label": "Inspection Records",
+   "options": "Inspection Records"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-08-22 21:38:36.059505",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Survey Questions",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

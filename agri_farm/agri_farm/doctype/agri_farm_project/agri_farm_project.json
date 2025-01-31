@@ -1,0 +1,33 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-12-02 09:54:26.108838",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project",
+   "options": "Agri Project"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-02 09:54:26.108838",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Agri Farm Project",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

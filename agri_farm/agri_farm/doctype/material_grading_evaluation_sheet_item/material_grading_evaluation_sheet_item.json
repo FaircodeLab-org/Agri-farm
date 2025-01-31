@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-24 14:25:59.077866",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date__time",
+  "rm_lot_no",
+  "mode_of_grading",
+  "mode_of_packing",
+  "physical_properties_column",
+  "bulk_density",
+  "appearance",
+  "dust_percentage",
+  "chemical_properties_column",
+  "mo",
+  "vo",
+  "microbiological_properties_column",
+  "tpc",
+  "others",
+  "section_break_15",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "date__time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Date  & Time "
+  },
+  {
+   "fieldname": "rm_lot_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "RM Lot No/FG Lot No"
+  },
+  {
+   "fieldname": "mode_of_grading",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mode of Grading"
+  },
+  {
+   "fieldname": "mode_of_packing",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mode of packing"
+  },
+  {
+   "fieldname": "physical_properties_column",
+   "fieldtype": "Column Break",
+   "label": "Physical Properties "
+  },
+  {
+   "fieldname": "bulk_density",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bulk Density"
+  },
+  {
+   "fieldname": "appearance",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Appearance "
+  },
+  {
+   "fieldname": "dust_percentage",
+   "fieldtype": "Data",
+   "label": "Dust Percentage"
+  },
+  {
+   "fieldname": "chemical_properties_column",
+   "fieldtype": "Column Break",
+   "label": "Chemical Properties"
+  },
+  {
+   "fieldname": "mo",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "MO"
+  },
+  {
+   "fieldname": "vo",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "VO"
+  },
+  {
+   "fieldname": "microbiological_properties_column",
+   "fieldtype": "Column Break",
+   "label": "Microbiological Properties"
+  },
+  {
+   "fieldname": "tpc",
+   "fieldtype": "Data",
+   "label": "TPC"
+  },
+  {
+   "fieldname": "others",
+   "fieldtype": "Data",
+   "label": "Others"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-24 15:16:29.729272",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Material Grading Evaluation Sheet Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

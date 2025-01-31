@@ -1,0 +1,118 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-14 18:23:57.000076",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "equipment",
+  "parts_of_equipment",
+  "hot_water",
+  "column_break_5",
+  "vaccum_cleaning",
+  "drying",
+  "remarks",
+  "done_by",
+  "employee_name",
+  "monitored_by",
+  "supervisor_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Equipment",
+   "options": "Equipment"
+  },
+  {
+   "depends_on": "eval: doc.Equipment",
+   "fieldname": "parts_of_equipment",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Parts of Equipment",
+   "options": "Parts of Equipment"
+  },
+  {
+   "fieldname": "hot_water",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Hot Water",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "vaccum_cleaning",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Vaccum Cleaning",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "drying",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Drying",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "done_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Done By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "done_by.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "monitored_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Monitored by",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "monitored_by.employee_name",
+   "fieldname": "supervisor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Supervisor Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-02 09:34:44.775053",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Machine Cleaning Checklist Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

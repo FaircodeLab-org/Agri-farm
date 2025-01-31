@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-04 13:43:51.576936",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "attachmentagenda_minutes_in_word_format",
+  "minutes_attachment",
+  "date",
+  "translation_provision"
+ ],
+ "fields": [
+  {
+   "fieldname": "attachmentagenda_minutes_in_word_format",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Agenda Attachment"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "translation_provision",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Translation Provision"
+  },
+  {
+   "fieldname": "minutes_attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Minutes Attachment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-07 10:44:52.552744",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Minutes Of Board Meeting",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-25 16:10:55.464930",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "whats_app_url",
+  "survey_risk_threshold_low",
+  "survey_risk_threshold_high",
+  "column_break_4xsvv",
+  "risk_value_yes",
+  "risk_value_no",
+  "supplier_group"
+ ],
+ "fields": [
+  {
+   "fieldname": "whats_app_url",
+   "fieldtype": "Data",
+   "label": "Whats App URL"
+  },
+  {
+   "fieldname": "survey_risk_threshold_low",
+   "fieldtype": "Float",
+   "label": "Survey Risk Threshold Low"
+  },
+  {
+   "fieldname": "survey_risk_threshold_high",
+   "fieldtype": "Float",
+   "label": "Survey Risk Threshold High"
+  },
+  {
+   "fieldname": "column_break_4xsvv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "risk_value_yes",
+   "fieldtype": "Float",
+   "label": "Risk Value( YES )"
+  },
+  {
+   "fieldname": "risk_value_no",
+   "fieldtype": "Float",
+   "label": "Risk Value( NO )"
+  },
+  {
+   "fieldname": "supplier_group",
+   "fieldtype": "Link",
+   "label": "Supplier Group",
+   "options": "Supplier Group"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-11-01 12:55:54.583996",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "App Config",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-11-11 16:02:03.872991",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_name",
+  "qty",
+  "uom",
+  "batch_id",
+  "lot_no",
+  "purchase_receipt",
+  "warehouse"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Name",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Qty",
+   "reqd": 1
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "UOM",
+   "options": "UOM",
+   "reqd": 1
+  },
+  {
+   "fieldname": "batch_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Batch ID",
+   "options": "Batch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lot_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Lot No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "purchase_receipt",
+   "fieldtype": "Data",
+   "label": "Purchase Receipt",
+   "read_only": 1
+  },
+  {
+   "fieldname": "warehouse",
+   "fieldtype": "Link",
+   "label": "Warehouse",
+   "options": "Warehouse",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-06 11:00:16.083477",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Trace Net Entry Item",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

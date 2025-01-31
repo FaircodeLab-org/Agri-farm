@@ -1,0 +1,360 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-02-11 10:53:18.766013",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "issue_number",
+  "frequency",
+  "column_break_2",
+  "company",
+  "date_of_issue",
+  "type",
+  "section_break_8",
+  "date_of_reception",
+  "name_of_the_transporter",
+  "vehicle_number",
+  "column_break_12",
+  "suppler_name",
+  "tc_number",
+  "product_code",
+  "product_name",
+  "lot_number",
+  "section_break_15",
+  "parameters",
+  "parameters_1",
+  "parameters_2",
+  "parameters_3",
+  "parameters_4",
+  "parameters_5",
+  "parameters_6",
+  "parameters_7",
+  "parameters_8",
+  "column_break_20",
+  "observation",
+  "observation_1",
+  "observation_2",
+  "observation_3",
+  "observation_4",
+  "observation_5",
+  "observation_6",
+  "observation_7",
+  "observation_8",
+  "section_break_38",
+  "checked_by",
+  "checked_by_name",
+  "column_break_41",
+  "verified_by",
+  "verified_by_name",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Series",
+   "options": "PAT/QA/IVC/.DD./.#",
+   "reqd": 1
+  },
+  {
+   "fieldname": "issue_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Issue Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "\nTo Every Receipt",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date Of Issue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\nNot Defined\nCoffee QC\nSpices QC\nNPD QC",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_of_reception",
+   "fieldtype": "Date",
+   "label": "Date of Reception",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name_of_the_transporter",
+   "fieldtype": "Data",
+   "label": "Name of The Transporter",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vehicle_number",
+   "fieldtype": "Data",
+   "label": "Vehicle Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "suppler_name",
+   "fieldtype": "Link",
+   "label": "Suppler Name",
+   "options": "Supplier",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tc_number",
+   "fieldtype": "Data",
+   "label": "TC Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "product_code",
+   "fieldtype": "Data",
+   "label": "Product Code",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "product_code.item_name",
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "label": "Product Name ",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lot_number",
+   "fieldtype": "Data",
+   "label": "LOT Number",
+   "reqd": 1
+  },
+  {
+   "default": "Whether the vehicle is cleaned properly (Free from dust, spillage of previous loaded\nmaterial and smell)",
+   "fieldname": "parameters",
+   "fieldtype": "Data",
+   "label": "Parameters",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "observation",
+   "fieldtype": "Data",
+   "label": "Observation",
+   "reqd": 1
+  },
+  {
+   "default": "Whether the plat form of the vehicle is free from sharp ends, dents.",
+   "fieldname": "parameters_1",
+   "fieldtype": "Data",
+   "label": "Parameters",
+   "read_only": 1
+  },
+  {
+   "fieldname": "observation_1",
+   "fieldtype": "Data",
+   "label": "Observation",
+   "reqd": 1
+  },
+  {
+   "default": "Details of the loaded material(s).",
+   "fieldname": "parameters_2",
+   "fieldtype": "Data",
+   "label": "Parameters",
+   "read_only": 1
+  },
+  {
+   "default": "Was any pesticides/Insecticides are loaded in the vehicle",
+   "fieldname": "parameters_3",
+   "fieldtype": "Data",
+   "label": "Parameters",
+   "read_only": 1
+  },
+  {
+   "default": "Whether any Fragrance material is seen in the vehicle",
+   "fieldname": "parameters_4",
+   "fieldtype": "Data",
+   "label": "Parameters",
+   "read_only": 1
+  },
+  {
+   "default": "Whether the roof and sides of the container is free from any holes to avoid leakage during rain?",
+   "fieldname": "parameters_5",
+   "fieldtype": "Data",
+   "label": "Parameters",
+   "read_only": 1
+  },
+  {
+   "default": "Whether the vehicle is free from pests",
+   "fieldname": "parameters_6",
+   "fieldtype": "Data",
+   "label": "Parameters",
+   "read_only": 1
+  },
+  {
+   "default": "Whether the goods are packed properly?",
+   "fieldname": "parameters_7",
+   "fieldtype": "Data",
+   "label": "Parameters",
+   "read_only": 1
+  },
+  {
+   "default": "Whether pesticide result received or not",
+   "fieldname": "parameters_8",
+   "fieldtype": "Data",
+   "label": "Parameters",
+   "read_only": 1
+  },
+  {
+   "fieldname": "observation_2",
+   "fieldtype": "Data",
+   "label": "Observation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "observation_3",
+   "fieldtype": "Data",
+   "label": "Observation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "observation_4",
+   "fieldtype": "Data",
+   "label": "Observation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "observation_5",
+   "fieldtype": "Data",
+   "label": "Observation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "observation_6",
+   "fieldtype": "Data",
+   "label": "Observation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "observation_7",
+   "fieldtype": "Data",
+   "label": "Observation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "observation_8",
+   "fieldtype": "Data",
+   "label": "Observation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_38",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "checked_by",
+   "fieldtype": "Link",
+   "label": "Checked By",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "checked_by.employee_name",
+   "fieldname": "checked_by_name",
+   "fieldtype": "Data",
+   "label": "Checked By Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "verified_by",
+   "fieldtype": "Link",
+   "label": "Verified By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "verified_by.employee_name",
+   "fieldname": "verified_by_name",
+   "fieldtype": "Data",
+   "label": "Verified By Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Incoming Vehicle Checklist",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-05-13 12:09:16.571505",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Incoming Vehicle Checklist",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

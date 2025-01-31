@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-24 12:40:20.885682",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "organoleptic",
+  "result",
+  "test_method"
+ ],
+ "fields": [
+  {
+   "fieldname": "organoleptic",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Organoleptic",
+   "options": "Organoleptic"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Result"
+  },
+  {
+   "fieldname": "test_method",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Method"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-24 12:40:20.885682",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "FG Organoleptic Properties",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,215 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-24 11:33:49.220757",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rm_storage_room_column",
+  "rm_floor",
+  "rm_wall",
+  "rm_equipment",
+  "pepper_plant_column",
+  "pp_floor",
+  "pp_wall",
+  "pp_equipment",
+  "turmeric_pulverization_room_column",
+  "tpr_floor",
+  "tpr_wall",
+  "tpr_equipment",
+  "section_break_13",
+  "sterilization_drying_room_column",
+  "sdr_floor",
+  "sdr_wall",
+  "sdr_equipment",
+  "factory_premises_column",
+  "fp_floor",
+  "fp_wall",
+  "fp_equipment",
+  "verify_and_approve_column",
+  "done_by",
+  "employee_name",
+  "checked_by",
+  "supervisor_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "rm_storage_room_column",
+   "fieldtype": "Column Break",
+   "label": "RM Storage Room"
+  },
+  {
+   "fieldname": "rm_floor",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "RM Floor",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "rm_wall",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "RM Wall",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "rm_equipment",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "RM Equipment",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "pepper_plant_column",
+   "fieldtype": "Column Break",
+   "label": "Pepper Plant"
+  },
+  {
+   "fieldname": "pp_floor",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "PP Floor",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "pp_wall",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "PP Wall",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "pp_equipment",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "PP Equipment",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "turmeric_pulverization_room_column",
+   "fieldtype": "Column Break",
+   "label": "Turmeric Pulverization Room"
+  },
+  {
+   "fieldname": "tpr_floor",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "TPR Floor",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "tpr_wall",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "TPR Wall",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "tpr_equipment",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "TPR Equipment",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "sterilization_drying_room_column",
+   "fieldtype": "Column Break",
+   "label": "Sterilization & Drying Room"
+  },
+  {
+   "fieldname": "sdr_floor",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "SDR Floor",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "sdr_wall",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "SDR Wall",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "sdr_equipment",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "SDR Equipment",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "factory_premises_column",
+   "fieldtype": "Column Break",
+   "label": "Factory Premises"
+  },
+  {
+   "fieldname": "fp_floor",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "FP Floor",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "fp_wall",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "FP Wall",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "fp_equipment",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "FP Equipment",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "done_by",
+   "fieldtype": "Link",
+   "label": "Done By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "done_by.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "verify_and_approve_column",
+   "fieldtype": "Column Break",
+   "label": "Verify and Approve"
+  },
+  {
+   "fieldname": "checked_by",
+   "fieldtype": "Link",
+   "label": "Checked By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "checked_by.employee_name",
+   "fieldname": "supervisor_name",
+   "fieldtype": "Data",
+   "label": "Supervisor Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-24 11:44:18.630735",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Factory-Housekeeping And Hygiene Checklist Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

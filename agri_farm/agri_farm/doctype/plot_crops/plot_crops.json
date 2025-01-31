@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-11-11 11:54:31.252466",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "crop",
+  "plot_name",
+  "number_of_plants",
+  "plot_area",
+  "start_date",
+  "mature_plant",
+  "non_mature_plant",
+  "column_break_8",
+  "harvest_type",
+  "estimated_yield_mt_fresh",
+  "estimated_yield_mt_dired",
+  "previous_year_stock"
+ ],
+ "fields": [
+  {
+   "fieldname": "plot_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Plot Name"
+  },
+  {
+   "default": "0",
+   "fieldname": "number_of_plants",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Number of Plants"
+  },
+  {
+   "default": "0",
+   "fieldname": "plot_area",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Plot Area"
+  },
+  {
+   "fieldname": "crop",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Crop",
+   "options": "Crop Parent"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "mature_plant",
+   "fieldtype": "Data",
+   "label": "Mature Plant"
+  },
+  {
+   "fieldname": "non_mature_plant",
+   "fieldtype": "Data",
+   "label": "Non Mature Plant"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "harvest_type",
+   "fieldtype": "Select",
+   "label": "Harvest Type",
+   "options": "\nSingle\nMultiple"
+  },
+  {
+   "fieldname": "estimated_yield_mt_fresh",
+   "fieldtype": "Data",
+   "label": "Estimated Yield MT Fresh"
+  },
+  {
+   "fieldname": "estimated_yield_mt_dired",
+   "fieldtype": "Data",
+   "label": "Estimated Yield MT Dired"
+  },
+  {
+   "default": "0",
+   "fieldname": "previous_year_stock",
+   "fieldtype": "Float",
+   "label": "Previous Year Stock"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-11 18:32:22.547236",
+ "modified_by": "Administrator",
+ "module": "Agri Farm",
+ "name": "Plot Crops",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
