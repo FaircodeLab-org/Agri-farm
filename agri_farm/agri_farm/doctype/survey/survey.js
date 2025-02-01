@@ -12,9 +12,74 @@ frappe.ui.form.on('Survey', {
 				}
 			}
 		})
+	
 	},
+	view_map: function(frm) {
+        if (!frm.doc.farm_boundary || frm.doc.farm_boundary.length === 0) {
+            frappe.msgprint(__('Please add latitude and longitude values in the child table.'));
+            return;
+        }
+
+        let coordinates = frm.doc.farm_boundary.map(row => [parseFloat(row.longitude), parseFloat(row.latitude)]);
+
+        if (coordinates.length < 3) {
+            frappe.msgprint(__('A polygon requires at least three coordinates.'));
+            return;
+        }
+
+        coordinates.push(coordinates[0]);
+
+        let polygon = JSON.stringify({
+            type: "Feature",
+            properties: { name: "Custom Polygon" },
+            geometry: { type: "Polygon", coordinates: [coordinates] }
+        });
+
+        let base_url = "https://earthmap.org/?";
+		let gfc_loss_year = {
+				opacity: 1
+			};
+
+        let params = {
+            aoi: "global",
+            boundary: "Custom_Polygon",
+            embed: "true",
+            layers: JSON.stringify({
+				"Hansen": gfc_loss_year,
+			}),
+
+            map: JSON.stringify({
+                center: { lat: coordinates[0][1], lng: coordinates[0][0] },
+                zoom: 18,
+                mapType: "roadmap"
+            }),
+
+            polygon: polygon,
+            statisticsOpen: "true",
+			mainmenu: "true"
+        };
+
+        let map_url = base_url + new URLSearchParams(params).toString();
+        console.log('Generated Map URL:', map_url);
+
+        frm.set_value('map_url', map_url);
+        frm.save();
+
+        if (frm.fields_dict.map_html) {
+            frm.fields_dict.map_html.$wrapper.html(`
+                <iframe src="${map_url}" width="100%" height="600px" frameborder="0"></iframe>
+            `);
+        }
+
+    },
 
 	onload: function(frm) {
+		
+		if (!frm.doc.map_url) {
+            if (frm.fields_dict.map_html) {
+                frm.fields_dict.map_html.$wrapper.html('');
+            }
+        }
 
 		cur_frm.get_field("farm_details_questions").grid.cannot_add_rows = true;
 		refresh_field("farm_details_questions");
@@ -131,7 +196,7 @@ frappe.ui.form.on('Survey', {
 
 
 
-
+	
 
 
 

@@ -39,6 +39,9 @@
   "animal_husbandry",
   "fertilizer_details",
   "farm_boundary",
+  "view_map",
+  "map_url",
+  "map_html",
   "farm_image",
   "survey_quastions_tab",
   "fetch_survey_questions",
@@ -70,7 +73,6 @@
   "column_break_ymeqs",
   "column_break_zgxzs",
   "mulching_risk_score",
-  "section_break_bpwkx",
   "tab_break_sbsha",
   "section_break_ywv9w",
   "irrigation_questions",
@@ -107,7 +109,6 @@
   "column_break_wb96n",
   "column_break_cad1v",
   "risk_score",
-  "section_break_3obcf",
   "tab_break_qyiwq",
   "section_break_zbv4e",
   "processing_questions",
@@ -147,7 +148,6 @@
   "column_break_ftpy4",
   "column_break_nre6r",
   "risk",
-  "section_break_ngrsc",
   "section_break_z9zht",
   "section_break_zapde",
   "farmer_signature",
@@ -262,6 +262,7 @@
    "options": "Survey Animal  Husbandry Table"
   },
   {
+   "allow_bulk_edit": 1,
    "fieldname": "farm_boundary",
    "fieldtype": "Table",
    "label": "Farm Boundary",
@@ -501,10 +502,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "section_break_bpwkx",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "section_break_a9wwe",
    "fieldtype": "Section Break"
   },
@@ -603,10 +600,6 @@
   {
    "fieldname": "column_break_cad1v",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "section_break_3obcf",
-   "fieldtype": "Section Break"
   },
   {
    "fieldname": "section_break_te1kx",
@@ -862,10 +855,6 @@
    "label": "Risk Score"
   },
   {
-   "fieldname": "section_break_ngrsc",
-   "fieldtype": "Section Break"
-  },
-  {
    "default": "0",
    "fieldname": "is_submitted",
    "fieldtype": "Check",
@@ -883,12 +872,29 @@
    "fieldtype": "Table",
    "label": "Fertilizer Details",
    "options": "Survey Fertilizer Details"
+  },
+  {
+   "fieldname": "view_map",
+   "fieldtype": "Button",
+   "label": "View Map"
+  },
+  {
+   "fieldname": "map_url",
+   "fieldtype": "Text",
+   "hidden": 1,
+   "label": "Map url",
+   "read_only": 1
+  },
+  {
+   "fieldname": "map_html",
+   "fieldtype": "HTML",
+   "label": "Map"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-10-20 23:32:09.520285",
+ "modified": "2025-01-31 16:26:36.996819",
  "modified_by": "Administrator",
  "module": "Agri Farm",
  "name": "Survey",
