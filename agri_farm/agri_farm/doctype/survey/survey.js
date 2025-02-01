@@ -75,10 +75,8 @@ frappe.ui.form.on('Survey', {
 
 	onload: function(frm) {
 		
-		if (!frm.doc.map_url) {
-            if (frm.fields_dict.map_html) {
-                frm.fields_dict.map_html.$wrapper.html('');
-            }
+		if (frm.doc.map_url && frm.fields_dict.map_html) {
+            frm.fields_dict.map_html.$wrapper.html('');
         }
 
 		cur_frm.get_field("farm_details_questions").grid.cannot_add_rows = true;

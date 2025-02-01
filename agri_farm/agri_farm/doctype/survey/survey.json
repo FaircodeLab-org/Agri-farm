@@ -879,6 +879,7 @@
    "label": "View Map"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "map_url",
    "fieldtype": "Text",
    "hidden": 1,
@@ -894,7 +895,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-31 16:26:36.996819",
+ "modified": "2025-02-01 16:14:28.204890",
  "modified_by": "Administrator",
  "module": "Agri Farm",
  "name": "Survey",
